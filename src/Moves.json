@@ -1,0 +1,1186 @@
+[ABSORB] {
+    type: GRASS
+    power: 20
+    pp: 20
+    accuracy: 100
+    effect: DRAIN_HP
+    effect_power: 50
+}
+[ACID] {
+    type: POISON
+    power: 40
+    pp: 30
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[ACID_ARMOR] {
+    type: POISON
+    pp: 40
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 2
+    effect_stat: DEFENSE
+}
+[AGILITY] {
+    type: PSYCHIC
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 2
+    effect_stat: SPEED
+}
+[AMNESIA] {
+    type: PSYCHIC
+    pp: 20
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 2
+    effect_stat: SPECIAL
+}
+[AURORA_BEAM] {
+    type: ICE
+    power: 65
+    pp: 20
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ATTACK
+}
+[BARRAGE] {
+    type: NORMAL
+    power: 15
+    pp: 20
+    accuracy: 85
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[BARRIER] {
+    type: PSYCHIC
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 2
+    effect_stat: DEFENSE
+}
+[BIDE] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: _BIDE
+}
+[BIND] {
+    type: NORMAL
+    power: 15
+    pp: 20
+    accuracy: 75
+    effect: _TRAPPING
+}
+[BITE] {
+    type: NORMAL
+    power: 60
+    pp: 25
+    accuracy: 100
+    effect: FLINCH
+    effect_power: 10
+}
+[BLIZZARD] {
+    type: ICE
+    power: 120
+    pp: 5
+    accuracy: 90
+    effect: FREEZE
+    effect_power: 10
+}
+[BODY_SLAM] {
+    type: NORMAL
+    power: 85
+    pp: 15
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 30
+}
+[BONEMERANG] {
+    type: GROUND
+    power: 50
+    pp: 10
+    accuracy: 90
+    attack_count: 2
+}
+[BONE_CLUB] {
+    type: GROUND
+    power: 65
+    pp: 20
+    accuracy: 85
+    effect: FLINCH
+    effect_power: 10
+}
+[BUBBLE] {
+    type: WATER
+    power: 20
+    pp: 30
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: SPEED
+}
+[BUBBLEBEAM] {
+    type: WATER
+    power: 65
+    pp: 20
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: SPEED
+}
+[CLAMP] {
+    type: WATER
+    power: 35
+    pp: 10
+    accuracy: 75
+    effect: _TRAPPING
+}
+[COMET_PUNCH] {
+    type: NORMAL
+    power: 18
+    pp: 15
+    accuracy: 85
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[CONFUSE_RAY] {
+    type: GHOST
+    pp: 10
+    accuracy: 100
+    effect: CONFUSION
+    effect_power: 100
+}
+[CONFUSION] {
+    type: PSYCHIC
+    power: 50
+    pp: 25
+    accuracy: 100
+    effect: CONFUSION
+    effect_power: 10
+}
+[CONSTRICT] {
+    type: NORMAL
+    power: 10
+    pp: 35
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: SPEED
+}
+[CONVERSION] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: _CONVERSION
+}
+[COUNTER] {
+    type: FIGHTING
+    power: 1
+    pp: 20
+    accuracy: 100
+    priority: -1
+    effect: COUNTER
+}
+[CRABHAMMER] {
+    type: WATER
+    power: 90
+    pp: 10
+    accuracy: 85
+    crit_rate: 4
+}
+[CUT] {
+    type: NORMAL
+    power: 50
+    pp: 30
+    accuracy: 95
+}
+[DEFENSE_CURL] {
+    type: NORMAL
+    pp: 40
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[DIG] {
+    type: GROUND
+    power: 100
+    pp: 10
+    accuracy: 100
+    effect: CHARGE
+}
+[DISABLE] {
+    type: NORMAL
+    pp: 20
+    accuracy: 55
+    effect: _DISABLE
+}
+[DIZZY_PUNCH] {
+    type: NORMAL
+    power: 70
+    pp: 10
+    accuracy: 100
+}
+[DOUBLESLAP] {
+    type: NORMAL
+    power: 15
+    pp: 10
+    accuracy: 85
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[DOUBLE_EDGE] {
+    type: NORMAL
+    power: 100
+    pp: 15
+    accuracy: 100
+    effect: RECOIL
+    effect_power: 25
+}
+[DOUBLE_KICK] {
+    type: FIGHTING
+    power: 30
+    pp: 30
+    accuracy: 100
+    attack_count: 2
+}
+[DOUBLE_TEAM] {
+    type: NORMAL
+    pp: 15
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: EVASION
+}
+[DRAGON_RAGE] {
+    type: DRAGON
+    power: 1
+    pp: 10
+    accuracy: 100
+    effect: FIXED_DAMAGE
+    effect_power: 40
+}
+[DREAM_EATER] {
+    type: PSYCHIC
+    power: 100
+    pp: 15
+    accuracy: 100
+    effect: _DREAM_EATER
+}
+[DRILL_PECK] {
+    type: FLYING
+    power: 80
+    pp: 20
+    accuracy: 100
+}
+[EARTHQUAKE] {
+    type: GROUND
+    power: 100
+    pp: 10
+    accuracy: 100
+}
+[EGG_BOMB] {
+    type: NORMAL
+    power: 100
+    pp: 10
+    accuracy: 75
+}
+[EMBER] {
+    type: FIRE
+    power: 40
+    pp: 25
+    accuracy: 100
+    effect: BURN
+    effect_power: 10
+}
+[EXPLOSION] {
+    type: NORMAL
+    power: 170
+    pp: 5
+    accuracy: 100
+    effect: _EXPLODE
+}
+[FIRE_BLAST] {
+    type: FIRE
+    power: 120
+    pp: 5
+    accuracy: 85
+    effect: BURN
+    effect_power: 30
+}
+[FIRE_PUNCH] {
+    type: FIRE
+    power: 75
+    pp: 15
+    accuracy: 100
+    effect: BURN
+    effect_power: 10
+}
+[FIRE_SPIN] {
+    type: FIRE
+    power: 15
+    pp: 15
+    accuracy: 70
+    effect: _TRAPPING
+}
+[FISSURE] {
+    type: GROUND
+    power: 1
+    pp: 5
+    accuracy: 30
+    effect: OHKO
+}
+[FLAMETHROWER] {
+    type: FIRE
+    power: 95
+    pp: 15
+    accuracy: 100
+    effect: BURN
+    effect_power: 10
+}
+[FLASH] {
+    type: NORMAL
+    pp: 20
+    accuracy: 70
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ACCURACY
+}
+[FLY] {
+    type: FLYING
+    power: 70
+    pp: 15
+    accuracy: 95
+    effect: CHARGE
+}
+[FOCUS_ENERGY] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 4
+    effect_stat: CRIT
+}
+[FURY_ATTACK] {
+    type: NORMAL
+    power: 15
+    pp: 20
+    accuracy: 85
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[FURY_SWIPES] {
+    type: NORMAL
+    power: 18
+    pp: 15
+    accuracy: 80
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[GLARE] {
+    type: NORMAL
+    pp: 30
+    accuracy: 75
+    effect: PARALYZE
+    effect_power: 100
+}
+[GROWL] {
+    type: NORMAL
+    pp: 40
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ATTACK
+}
+[GROWTH] {
+    type: NORMAL
+    pp: 40
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: SPECIAL
+}
+[GUILLOTINE] {
+    type: NORMAL
+    power: 1
+    pp: 5
+    accuracy: 30
+    effect: OHKO
+}
+[GUST] {
+    type: NORMAL
+    power: 40
+    pp: 35
+    accuracy: 100
+}
+[HARDEN] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[HAZE] {
+    type: ICE
+    pp: 30
+    accuracy: 100
+    effect: _HAZE
+}
+[HEADBUTT] {
+    type: NORMAL
+    power: 70
+    pp: 15
+    accuracy: 100
+    effect: FLINCH
+    effect_power: 30
+}
+[HI_JUMP_KICK] {
+    type: FIGHTING
+    power: 85
+    pp: 20
+    accuracy: 90
+    effect: CRASH_DAMAGE
+    effect_power: 13
+}
+[HORN_ATTACK] {
+    type: NORMAL
+    power: 65
+    pp: 25
+    accuracy: 100
+}
+[HORN_DRILL] {
+    type: NORMAL
+    power: 1
+    pp: 5
+    accuracy: 30
+    effect: OHKO
+}
+[HYDRO_PUMP] {
+    type: WATER
+    power: 120
+    pp: 5
+    accuracy: 80
+}
+[HYPER_BEAM] {
+    type: NORMAL
+    power: 150
+    pp: 5
+    accuracy: 90
+    effect: POST_CHARGE
+}
+[HYPER_FANG] {
+    type: NORMAL
+    power: 80
+    pp: 15
+    accuracy: 90
+    effect: FLINCH
+    effect_power: 10
+}
+[HYPNOSIS] {
+    type: PSYCHIC
+    pp: 20
+    accuracy: 60
+    effect: SLEEP
+    effect_power: 100
+}
+[ICE_BEAM] {
+    type: ICE
+    power: 95
+    pp: 10
+    accuracy: 100
+    effect: FREEZE
+    effect_power: 10
+}
+[ICE_PUNCH] {
+    type: ICE
+    power: 75
+    pp: 15
+    accuracy: 100
+    effect: FREEZE
+    effect_power: 10
+}
+[JUMP_KICK] {
+    type: FIGHTING
+    power: 70
+    pp: 25
+    accuracy: 95
+    effect: CRASH_DAMAGE
+    effect_power: 13
+}
+[KARATE_CHOP] {
+    type: NORMAL
+    power: 50
+    pp: 25
+    accuracy: 100
+    crit_rate: 4
+}
+[KINESIS] {
+    type: PSYCHIC
+    pp: 15
+    accuracy: 80
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ACCURACY
+}
+[LEECH_LIFE] {
+    type: BUG
+    power: 20
+    pp: 15
+    accuracy: 100
+    effect: DRAIN_HP
+    effect_power: 50
+}
+[LEECH_SEED] {
+    type: GRASS
+    pp: 10
+    accuracy: 90
+    effect: _LEECH_SEED
+}
+[LEER] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[LICK] {
+    type: GHOST
+    power: 20
+    pp: 30
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 30
+}
+[LIGHT_SCREEN] {
+    type: PSYCHIC
+    pp: 30
+    accuracy: 100
+    effect: _LIGHT_SCREEN
+}
+[LOVELY_KISS] {
+    type: NORMAL
+    pp: 10
+    accuracy: 75
+    effect: SLEEP
+    effect_power: 100
+}
+[LOW_KICK] {
+    type: FIGHTING
+    power: 50
+    pp: 20
+    accuracy: 90
+    effect: FLINCH
+    effect_power: 30
+}
+[MEDITATE] {
+    type: PSYCHIC
+    pp: 40
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: ATTACK
+}
+[MEGA_DRAIN] {
+    type: GRASS
+    power: 40
+    pp: 10
+    accuracy: 100
+    effect: DRAIN_HP
+    effect_power: 50
+}
+[MEGA_KICK] {
+    type: NORMAL
+    power: 120
+    pp: 5
+    accuracy: 75
+}
+[MEGA_PUNCH] {
+    type: NORMAL
+    power: 80
+    pp: 20
+    accuracy: 85
+}
+[METRONOME] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: _METRONOME
+}
+[MIMIC] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: _MIMIC
+}
+[MINIMIZE] {
+    type: NORMAL
+    pp: 20
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: EVASION
+}
+[MIRROR_MOVE] {
+    type: FLYING
+    pp: 20
+    accuracy: 100
+    effect: _MIRROR_MOVE
+}
+[MIST] {
+    type: ICE
+    pp: 30
+    accuracy: 100
+    effect: _MIST
+}
+[NIGHT_SHADE] {
+    type: GHOST
+    pp: 15
+    accuracy: 100
+    effect: DAMAGE_EQUALS_LEVEL
+    effect_power: 100
+}
+[PAY_DAY] {
+    type: NORMAL
+    power: 40
+    pp: 20
+    accuracy: 100
+    effect: _PAY_DAY
+}
+[PECK] {
+    type: FLYING
+    power: 35
+    pp: 35
+    accuracy: 100
+}
+[PETAL_DANCE] {
+    type: GRASS
+    power: 70
+    pp: 20
+    accuracy: 100
+    effect: _THRASH_PETAL_DANCE
+}
+[PIN_MISSILE] {
+    type: BUG
+    power: 14
+    pp: 20
+    accuracy: 85
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[POISONPOWDER] {
+    type: POISON
+    pp: 35
+    accuracy: 75
+    effect: POISON
+    effect_power: 100
+}
+[POISON_GAS] {
+    type: POISON
+    pp: 40
+    accuracy: 55
+    effect: POISON
+    effect_power: 100
+}
+[POISON_STING] {
+    type: POISON
+    power: 15
+    pp: 35
+    accuracy: 100
+    effect: POISON
+    effect_power: 20
+}
+[POUND] {
+    type: NORMAL
+    power: 40
+    pp: 35
+    accuracy: 100
+}
+[PSYBEAM] {
+    type: PSYCHIC
+    power: 65
+    pp: 20
+    accuracy: 100
+    effect: CONFUSION
+    effect_power: 10
+}
+[PSYCHIC_M] {
+    type: PSYCHIC
+    power: 90
+    pp: 10
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: SPECIAL
+}
+[PSYWAVE] {
+    type: PSYCHIC
+    power: 1
+    pp: 15
+    accuracy: 80
+    effect: DAMAGE_RANDOM_TO_LEVEL
+    effect_power: 150
+}
+[QUICK_ATTACK] {
+    type: NORMAL
+    power: 40
+    pp: 30
+    accuracy: 100
+    priority: 1
+}
+[RAGE] {
+    type: NORMAL
+    power: 20
+    pp: 20
+    accuracy: 100
+    effect: _RAGE
+}
+[RAZOR_LEAF] {
+    type: GRASS
+    power: 55
+    pp: 25
+    accuracy: 95
+    crit_rate: 4
+}
+[RAZOR_WIND] {
+    type: NORMAL
+    power: 80
+    pp: 10
+    accuracy: 75
+    effect: CHARGE
+}
+[RECOVER] {
+    type: NORMAL
+    pp: 20
+    accuracy: 100
+    effect: HEAL
+}
+[REFLECT] {
+    type: PSYCHIC
+    pp: 20
+    accuracy: 100
+    effect: _REFLECT
+}
+[REST] {
+    type: PSYCHIC
+    pp: 10
+    accuracy: 100
+    effect: HEAL
+}
+[ROAR] {
+    type: NORMAL
+    pp: 20
+    accuracy: 100
+    effect: TELEPORT_OUT_OF_BATTLE
+}
+[ROCK_SLIDE] {
+    type: ROCK
+    power: 75
+    pp: 10
+    accuracy: 90
+}
+[ROCK_THROW] {
+    type: ROCK
+    power: 50
+    pp: 15
+    accuracy: 65
+}
+[ROLLING_KICK] {
+    type: FIGHTING
+    power: 60
+    pp: 15
+    accuracy: 85
+    effect: FLINCH
+    effect_power: 30
+}
+[SAND_ATTACK] {
+    type: NORMAL
+    pp: 15
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ACCURACY
+}
+[SCRATCH] {
+    type: NORMAL
+    power: 40
+    pp: 35
+    accuracy: 100
+}
+[SCREECH] {
+    type: NORMAL
+    pp: 40
+    accuracy: 85
+    effect: STAT_DOWN
+    effect_power: 2
+    effect_stat: DEFENSE
+}
+[SEISMIC_TOSS] {
+    type: FIGHTING
+    power: 1
+    pp: 20
+    accuracy: 100
+    effect: DAMAGE_EQUALS_LEVEL
+    effect_power: 100
+}
+[SELFDESTRUCT] {
+    type: NORMAL
+    power: 130
+    pp: 5
+    accuracy: 100
+    effect: _EXPLODE
+}
+[SHARPEN] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: ATTACK
+}
+[SING] {
+    type: NORMAL
+    pp: 15
+    accuracy: 55
+    effect: SLEEP
+    effect_power: 100
+}
+[SKULL_BASH] {
+    type: NORMAL
+    power: 100
+    pp: 15
+    accuracy: 100
+    effect: CHARGE
+}
+[SKY_ATTACK] {
+    type: FLYING
+    power: 140
+    pp: 5
+    accuracy: 90
+    effect: CHARGE
+}
+[SLAM] {
+    type: NORMAL
+    power: 80
+    pp: 20
+    accuracy: 75
+}
+[SLASH] {
+    type: NORMAL
+    power: 70
+    pp: 20
+    accuracy: 100
+    crit_rate: 4
+}
+[SLEEP_POWDER] {
+    type: GRASS
+    pp: 15
+    accuracy: 75
+    effect: SLEEP
+    effect_power: 100
+}
+[SLUDGE] {
+    type: POISON
+    power: 65
+    pp: 20
+    accuracy: 100
+    effect: POISON
+    effect_power: 30
+}
+[SMOG] {
+    type: POISON
+    power: 20
+    pp: 20
+    accuracy: 70
+    effect: POISON
+    effect_power: 30
+}
+[SMOKESCREEN] {
+    type: NORMAL
+    pp: 20
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: ACCURACY
+}
+[SOFTBOILED] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: HEAL
+}
+[SOLARBEAM] {
+    type: GRASS
+    power: 120
+    pp: 10
+    accuracy: 100
+    effect: CHARGE
+}
+[SONICBOOM] {
+    type: NORMAL
+    power: 1
+    pp: 20
+    accuracy: 90
+    effect: FIXED_DAMAGE
+    effect_power: 20
+}
+[SPIKE_CANNON] {
+    type: NORMAL
+    power: 20
+    pp: 15
+    accuracy: 100
+    effect: TWO_TO_FIVE_ATTACKS
+}
+[SPLASH] {
+    type: NORMAL
+    pp: 40
+    accuracy: 100
+    effect: SPLASH
+}
+[SPORE] {
+    type: GRASS
+    pp: 15
+    accuracy: 100
+    effect: SLEEP
+    effect_power: 100
+}
+[STOMP] {
+    type: NORMAL
+    power: 65
+    pp: 20
+    accuracy: 100
+    effect: FLINCH
+    effect_power: 30
+}
+[STRENGTH] {
+    type: NORMAL
+    power: 80
+    pp: 15
+    accuracy: 100
+}
+[STRING_SHOT] {
+    type: BUG
+    pp: 40
+    accuracy: 95
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: SPEED
+}
+[STRUGGLE] {
+    type: NORMAL
+    power: 50
+    pp: 10
+    accuracy: 100
+    effect: RECOIL
+    effect_power: 25
+}
+[STUN_SPORE] {
+    type: GRASS
+    pp: 30
+    accuracy: 75
+    effect: PARALYZE
+    effect_power: 100
+}
+[SUBMISSION] {
+    type: FIGHTING
+    power: 80
+    pp: 25
+    accuracy: 80
+    effect: RECOIL
+    effect_power: 25
+}
+[SUBSTITUTE] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: _SUBSTITUTE
+}
+[SUPERSONIC] {
+    type: NORMAL
+    pp: 20
+    accuracy: 55
+    effect: CONFUSION
+    effect_power: 100
+}
+[SUPER_FANG] {
+    type: NORMAL
+    power: 1
+    pp: 10
+    accuracy: 90
+    effect: DAMAGE_EQUALS_TARGET_HP
+    effect_power: 50
+}
+[SURF] {
+    type: WATER
+    power: 95
+    pp: 15
+    accuracy: 100
+}
+[SWIFT] {
+    type: NORMAL
+    power: 60
+    pp: 20
+    accuracy: 100
+    effect: SWIFT
+}
+[SWORDS_DANCE] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 2
+    effect_stat: ATTACK
+}
+[TACKLE] {
+    type: NORMAL
+    power: 35
+    pp: 35
+    accuracy: 95
+}
+[TAIL_WHIP] {
+    type: NORMAL
+    pp: 30
+    accuracy: 100
+    effect: STAT_DOWN
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[TAKE_DOWN] {
+    type: NORMAL
+    power: 90
+    pp: 20
+    accuracy: 85
+    effect: RECOIL
+    effect_power: 25
+}
+[TELEPORT] {
+    type: PSYCHIC
+    pp: 20
+    accuracy: 100
+    effect: TELEPORT_OUT_OF_BATTLE
+}
+[THRASH] {
+    type: NORMAL
+    power: 90
+    pp: 20
+    accuracy: 100
+    effect: _THRASH_PETAL_DANCE
+}
+[THUNDER] {
+    type: ELECTRIC
+    power: 120
+    pp: 10
+    accuracy: 70
+    effect: PARALYZE
+    effect_power: 10
+}
+[THUNDERBOLT] {
+    type: ELECTRIC
+    power: 95
+    pp: 15
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 10
+}
+[THUNDERPUNCH] {
+    type: ELECTRIC
+    power: 75
+    pp: 15
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 10
+}
+[THUNDERSHOCK] {
+    type: ELECTRIC
+    power: 40
+    pp: 30
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 10
+}
+[THUNDER_WAVE] {
+    type: ELECTRIC
+    pp: 20
+    accuracy: 100
+    effect: PARALYZE
+    effect_power: 100
+}
+[TOXIC] {
+    type: POISON
+    pp: 10
+    accuracy: 85
+    effect: _BADLY_POISON
+}
+[TRANSFORM] {
+    type: NORMAL
+    pp: 10
+    accuracy: 100
+    effect: _TRANSFORM
+}
+[TRI_ATTACK] {
+    type: NORMAL
+    power: 80
+    pp: 10
+    accuracy: 100
+}
+[TWINEEDLE] {
+    type: BUG
+    power: 25
+    pp: 20
+    accuracy: 100
+    attack_count: 2
+    effect: POISON
+    effect_power: 20
+}
+[VICEGRIP] {
+    type: NORMAL
+    power: 55
+    pp: 30
+    accuracy: 100
+}
+[VINE_WHIP] {
+    type: GRASS
+    power: 35
+    pp: 10
+    accuracy: 100
+}
+[WATERFALL] {
+    type: WATER
+    power: 80
+    pp: 15
+    accuracy: 100
+}
+[WATER_GUN] {
+    type: WATER
+    power: 40
+    pp: 25
+    accuracy: 100
+}
+[WHIRLWIND] {
+    type: NORMAL
+    pp: 20
+    accuracy: 85
+    effect: TELEPORT_OUT_OF_BATTLE
+}
+[WING_ATTACK] {
+    type: FLYING
+    power: 35
+    pp: 35
+    accuracy: 100
+}
+[WITHDRAW] {
+    type: WATER
+    pp: 40
+    accuracy: 100
+    effect: STAT_UP
+    effect_power: 1
+    effect_stat: DEFENSE
+}
+[WRAP] {
+    type: NORMAL
+    power: 15
+    pp: 20
+    accuracy: 85
+    effect: _TRAPPING
+}

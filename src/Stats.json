@@ -1,0 +1,4257 @@
+[BULBASAUR] {
+    index: 0
+    hp: 45
+    attack: 49
+    defense: 49
+    speed: 45
+    special: 65
+    type: GRASS, POISON
+    catch_rate: 45
+    base_exp: 64
+    exp_table: 3
+    tm: 3, 6, 8, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: TACKLE, GROWL
+    moves_7: LEECH_SEED
+    moves_13: VINE_WHIP
+    moves_20: POISONPOWDER
+    moves_27: RAZOR_LEAF
+    moves_34: GROWTH
+    moves_41: SLEEP_POWDER
+    moves_48: SOLARBEAM
+    evolution: IVYSAUR, 16
+    pokedex: A strange seed was\
+        planted on its\
+        back at birth.\
+        The plant sprouts\
+        and grows with\
+        this POKEMON
+    species: SEED
+    height: 2#FEET4#INCH
+    weight: 15.0lb
+}
+[IVYSAUR] {
+    index: 1
+    hp: 60
+    attack: 62
+    defense: 63
+    speed: 60
+    special: 80
+    type: GRASS, POISON
+    catch_rate: 45
+    base_exp: 141
+    exp_table: 3
+    tm: 3, 6, 8, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: TACKLE, GROWL, LEECH_SEED
+    moves_7: LEECH_SEED
+    moves_13: VINE_WHIP
+    moves_22: POISONPOWDER
+    moves_30: RAZOR_LEAF
+    moves_38: GROWTH
+    moves_46: SLEEP_POWDER
+    moves_54: SOLARBEAM
+    evolution: VENUSAUR, 32
+    pokedex: When the bulb on\
+        its back grows\
+        large, it appears\
+        to lose the\
+        ability to stand\
+        on its hind legs
+    species: SEED
+    height: 3#FEET3#INCH
+    weight: 29.0lb
+}
+[VENUSAUR] {
+    index: 2
+    hp: 80
+    attack: 82
+    defense: 83
+    speed: 80
+    special: 100
+    type: GRASS, POISON
+    catch_rate: 45
+    base_exp: 208
+    exp_table: 3
+    tm: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: TACKLE, GROWL, LEECH_SEED, VINE_WHIP
+    moves_7: LEECH_SEED
+    moves_13: VINE_WHIP
+    moves_22: POISONPOWDER
+    moves_30: RAZOR_LEAF
+    moves_43: GROWTH
+    moves_55: SLEEP_POWDER
+    moves_65: SOLARBEAM
+    pokedex: The plant blooms\
+        when it is\
+        absorbing solar\
+        energy. It stays\
+        on the move to\
+        seek sunlight
+    species: SEED
+    height: 6#FEET7#INCH
+    weight: 221.0lb
+}
+[CHARMANDER] {
+    index: 3
+    hp: 39
+    attack: 52
+    defense: 43
+    speed: 65
+    special: 50
+    type: FIRE
+    catch_rate: 45
+    base_exp: 65
+    exp_table: 3
+    tm: 1, 3, 5, 6, 8, 9, 10, 17, 18, 19, 20, 23, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50, 51, 54
+    moves_1: SCRATCH, GROWL
+    moves_9: EMBER
+    moves_15: LEER
+    moves_22: RAGE
+    moves_30: SLASH
+    moves_38: FLAMETHROWER
+    moves_46: FIRE_SPIN
+    evolution: CHARMELEON, 16
+    pokedex: Obviously prefers\
+        hot places. When\
+        it rains, steam\
+        is said to spout\
+        from the tip of\
+        its tail
+    species: LIZARD
+    height: 2#FEET0#INCH
+    weight: 19.0lb
+}
+[CHARMELEON] {
+    index: 4
+    hp: 58
+    attack: 64
+    defense: 58
+    speed: 80
+    special: 65
+    type: FIRE
+    catch_rate: 45
+    base_exp: 142
+    exp_table: 3
+    tm: 1, 3, 5, 6, 8, 9, 10, 17, 18, 19, 20, 23, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50, 51, 54
+    moves_1: SCRATCH, GROWL, EMBER
+    moves_9: EMBER
+    moves_15: LEER
+    moves_24: RAGE
+    moves_33: SLASH
+    moves_42: FLAMETHROWER
+    moves_56: FIRE_SPIN
+    evolution: CHARIZARD, 36
+    pokedex: When it swings\
+        its burning tail,\
+        it elevates the\
+        temperature to\
+        unbearably high\
+        levels
+    species: FLAME
+    height: 3#FEET7#INCH
+    weight: 42.0lb
+}
+[CHARIZARD] {
+    index: 5
+    hp: 78
+    attack: 84
+    defense: 78
+    speed: 100
+    special: 85
+    type: FIRE, FLYING
+    catch_rate: 45
+    base_exp: 209
+    exp_table: 3
+    tm: 1, 3, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 23, 26, 27, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50, 51, 54
+    moves_1: SCRATCH, GROWL, EMBER, LEER
+    moves_9: EMBER
+    moves_15: LEER
+    moves_24: RAGE
+    moves_36: SLASH
+    moves_46: FLAMETHROWER
+    moves_55: FIRE_SPIN
+    pokedex: Spits fire that\
+        is hot enough to\
+        melt boulders.\
+        Known to cause\
+        forest fires\
+        unintentionally
+    species: FLAME
+    height: 5#FEET7#INCH
+    weight: 200.0lb
+}
+[SQUIRTLE] {
+    index: 6
+    hp: 44
+    attack: 48
+    defense: 65
+    speed: 43
+    special: 50
+    type: WATER
+    catch_rate: 45
+    base_exp: 66
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 28, 31, 32, 33, 34, 40, 44, 50, 53, 54
+    moves_1: TACKLE, TAIL_WHIP
+    moves_8: BUBBLE
+    moves_15: WATER_GUN
+    moves_22: BITE
+    moves_28: WITHDRAW
+    moves_35: SKULL_BASH
+    moves_42: HYDRO_PUMP
+    evolution: WARTORTLE, 16
+    pokedex: After birth, its\
+        back swells and\
+        hardens into a\
+        shell. Powerfully\
+        sprays foam from\
+        its mouth
+    species: TINYTURTLE
+    height: 1#FEET8#INCH
+    weight: 20.0lb
+}
+[WARTORTLE] {
+    index: 7
+    hp: 59
+    attack: 63
+    defense: 80
+    speed: 58
+    special: 65
+    type: WATER
+    catch_rate: 45
+    base_exp: 143
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 28, 31, 32, 33, 34, 40, 44, 50, 53, 54
+    moves_1: TACKLE, TAIL_WHIP, BUBBLE
+    moves_8: BUBBLE
+    moves_15: WATER_GUN
+    moves_24: BITE
+    moves_31: WITHDRAW
+    moves_39: SKULL_BASH
+    moves_47: HYDRO_PUMP
+    evolution: BLASTOISE, 36
+    pokedex: Often hides in\
+        water to stalk\
+        unwary prey. For\
+        swimming fast, it\
+        moves its ears to\
+        maintain balance
+    species: TURTLE
+    height: 3#FEET3#INCH
+    weight: 50.0lb
+}
+[BLASTOISE] {
+    index: 8
+    hp: 79
+    attack: 83
+    defense: 100
+    speed: 78
+    special: 85
+    type: WATER
+    catch_rate: 45
+    base_exp: 210
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 33, 34, 40, 44, 50, 53, 54
+    moves_1: TACKLE, TAIL_WHIP, BUBBLE, WATER_GUN
+    moves_8: BUBBLE
+    moves_15: WATER_GUN
+    moves_24: BITE
+    moves_31: WITHDRAW
+    moves_42: SKULL_BASH
+    moves_52: HYDRO_PUMP
+    pokedex: A brutal POKEMON\
+        with pressurized\
+        water jets on its\
+        shell. They are\
+        used for high\
+        speed tackles
+    species: SHELLFISH
+    height: 5#FEET3#INCH
+    weight: 189.0lb
+}
+[CATERPIE] {
+    index: 9
+    hp: 45
+    attack: 30
+    defense: 35
+    speed: 45
+    special: 20
+    type: BUG
+    catch_rate: 255
+    base_exp: 53
+    exp_table: 0
+    tm: 
+    moves_1: TACKLE, STRING_SHOT
+    evolution: METAPOD, 7
+    pokedex: Its short feet\
+        are tipped with\
+        suction pads that\
+        enable it to\
+        tirelessly climb\
+        slopes and walls
+    species: WORM
+    height: 1#FEET0#INCH
+    weight: 6.0lb
+}
+[METAPOD] {
+    index: 10
+    hp: 50
+    attack: 20
+    defense: 55
+    speed: 30
+    special: 25
+    type: BUG
+    catch_rate: 120
+    base_exp: 72
+    exp_table: 0
+    tm: 
+    moves_1: HARDEN
+    evolution: BUTTERFREE, 10
+    pokedex: This POKEMON is\
+        vulnerable to\
+        attack while its\
+        shell is soft,\
+        exposing its weak\
+        and tender body
+    species: COCOON
+    height: 2#FEET4#INCH
+    weight: 22.0lb
+}
+[BUTTERFREE] {
+    index: 11
+    hp: 60
+    attack: 45
+    defense: 50
+    speed: 70
+    special: 80
+    type: BUG, FLYING
+    catch_rate: 45
+    base_exp: 160
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 39, 44, 46, 50
+    moves_1: CONFUSION
+    moves_12: CONFUSION
+    moves_15: POISONPOWDER
+    moves_16: STUN_SPORE
+    moves_17: SLEEP_POWDER
+    moves_21: SUPERSONIC
+    moves_26: WHIRLWIND
+    moves_32: PSYBEAM
+    pokedex: In battle, it\
+        flaps its wings\
+        at high speed to\
+        release highly\
+        toxic dust into\
+        the air
+    species: BUTTERFLY
+    height: 3#FEET7#INCH
+    weight: 71.0lb
+}
+[WEEDLE] {
+    index: 12
+    hp: 40
+    attack: 35
+    defense: 30
+    speed: 50
+    special: 20
+    type: BUG, POISON
+    catch_rate: 255
+    base_exp: 52
+    exp_table: 0
+    tm: 
+    moves_1: POISON_STING, STRING_SHOT
+    evolution: KAKUNA, 7
+    pokedex: Often found in\
+        forests, eating\
+        leaves.\
+        It has a sharp\
+        venomous stinger\
+        on its head
+    species: HAIRY BUG
+    height: 1#FEET0#INCH
+    weight: 7.0lb
+}
+[KAKUNA] {
+    index: 13
+    hp: 45
+    attack: 25
+    defense: 50
+    speed: 35
+    special: 25
+    type: BUG, POISON
+    catch_rate: 120
+    base_exp: 71
+    exp_table: 0
+    tm: 
+    moves_1: HARDEN
+    evolution: BEEDRILL, 10
+    pokedex: Almost incapable\
+        of moving, this\
+        POKEMON can only\
+        harden its shell\
+        to protect itself\
+        from predators
+    species: COCOON
+    height: 2#FEET0#INCH
+    weight: 22.0lb
+}
+[BEEDRILL] {
+    index: 14
+    hp: 65
+    attack: 80
+    defense: 40
+    speed: 75
+    special: 45
+    type: BUG, POISON
+    catch_rate: 45
+    base_exp: 159
+    exp_table: 0
+    tm: 3, 6, 9, 10, 15, 20, 21, 31, 32, 33, 34, 39, 40, 44, 50, 51
+    moves_1: FURY_ATTACK
+    moves_12: FURY_ATTACK
+    moves_16: FOCUS_ENERGY
+    moves_20: TWINEEDLE
+    moves_25: RAGE
+    moves_30: PIN_MISSILE
+    moves_35: AGILITY
+    pokedex: Flies at high\
+        speed and attacks\
+        using its large\
+        venomous stingers\
+        on its forelegs\
+        and tail
+    species: POISON BEE
+    height: 3#FEET3#INCH
+    weight: 65.0lb
+}
+[PIDGEY] {
+    index: 15
+    hp: 40
+    attack: 45
+    defense: 40
+    speed: 56
+    special: 35
+    type: NORMAL, FLYING
+    catch_rate: 255
+    base_exp: 55
+    exp_table: 3
+    tm: 2, 4, 6, 9, 10, 20, 31, 32, 33, 34, 39, 43, 44, 50, 52
+    moves_1: GUST
+    moves_5: SAND_ATTACK
+    moves_12: QUICK_ATTACK
+    moves_19: WHIRLWIND
+    moves_28: WING_ATTACK
+    moves_36: AGILITY
+    moves_44: MIRROR_MOVE
+    evolution: PIDGEOTTO, 18
+    pokedex: A common sight in\
+        forests and woods.\
+        It flaps its\
+        wings at ground\
+        level to kick up\
+        blinding sand
+    species: TINY BIRD
+    height: 1#FEET0#INCH
+    weight: 4.0lb
+}
+[PIDGEOTTO] {
+    index: 16
+    hp: 63
+    attack: 60
+    defense: 55
+    speed: 71
+    special: 50
+    type: NORMAL, FLYING
+    catch_rate: 120
+    base_exp: 113
+    exp_table: 3
+    tm: 2, 4, 6, 9, 10, 20, 31, 32, 33, 34, 39, 43, 44, 50, 52
+    moves_1: GUST, SAND_ATTACK
+    moves_5: SAND_ATTACK
+    moves_12: QUICK_ATTACK
+    moves_21: WHIRLWIND
+    moves_31: WING_ATTACK
+    moves_40: AGILITY
+    moves_49: MIRROR_MOVE
+    evolution: PIDGEOT, 36
+    pokedex: Very protective\
+        of its sprawling\
+        territorial area,\
+        this POKEMON will\
+        fiercely peck at\
+        any intruder
+    species: BIRD
+    height: 3#FEET7#INCH
+    weight: 66.0lb
+}
+[PIDGEOT] {
+    index: 17
+    hp: 83
+    attack: 80
+    defense: 75
+    speed: 91
+    special: 70
+    type: NORMAL, FLYING
+    catch_rate: 45
+    base_exp: 172
+    exp_table: 3
+    tm: 2, 4, 6, 9, 10, 15, 20, 31, 32, 33, 34, 39, 43, 44, 50, 52
+    moves_1: GUST, SAND_ATTACK, QUICK_ATTACK
+    moves_5: SAND_ATTACK
+    moves_12: QUICK_ATTACK
+    moves_21: WHIRLWIND
+    moves_31: WING_ATTACK
+    moves_44: AGILITY
+    moves_54: MIRROR_MOVE
+    pokedex: When hunting, it\
+        skims the surface\
+        of water at high\
+        speed to pick off\
+        unwary prey such\
+        as MAGIKARP
+    species: BIRD
+    height: 4#FEET11#INCH
+    weight: 87.0lb
+}
+[RATTATA] {
+    index: 18
+    hp: 30
+    attack: 56
+    defense: 35
+    speed: 72
+    special: 25
+    type: NORMAL
+    catch_rate: 255
+    base_exp: 57
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 14, 20, 24, 25, 28, 31, 32, 34, 39, 40, 44, 50
+    moves_1: TACKLE, TAIL_WHIP
+    moves_7: QUICK_ATTACK
+    moves_14: HYPER_FANG
+    moves_23: FOCUS_ENERGY
+    moves_34: SUPER_FANG
+    evolution: RATICATE, 20
+    pokedex: Bites anything\
+        when it attacks.\
+        Small and very\
+        quick, it is a\
+        common sight in\
+        many places
+    species: RAT
+    height: 1#FEET0#INCH
+    weight: 8.0lb
+}
+[RATICATE] {
+    index: 19
+    hp: 55
+    attack: 81
+    defense: 60
+    speed: 97
+    special: 50
+    type: NORMAL
+    catch_rate: 90
+    base_exp: 116
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 24, 25, 28, 31, 32, 34, 39, 40, 44, 50
+    moves_1: TACKLE, TAIL_WHIP, QUICK_ATTACK
+    moves_7: QUICK_ATTACK
+    moves_14: HYPER_FANG
+    moves_27: FOCUS_ENERGY
+    moves_41: SUPER_FANG
+    pokedex: It uses its whis-\
+        kers to maintain\
+        its balance.\
+        It apparently\
+        slows down if\
+        they are cut off
+    species: RAT
+    height: 2#FEET4#INCH
+    weight: 41.0lb
+}
+[SPEAROW] {
+    index: 20
+    hp: 40
+    attack: 60
+    defense: 30
+    speed: 70
+    special: 31
+    type: NORMAL, FLYING
+    catch_rate: 255
+    base_exp: 58
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 20, 31, 32, 34, 39, 43, 44, 50, 52
+    moves_1: PECK, GROWL
+    moves_9: LEER
+    moves_15: FURY_ATTACK
+    moves_22: MIRROR_MOVE
+    moves_29: DRILL_PECK
+    moves_36: AGILITY
+    evolution: FEAROW, 20
+    pokedex: Eats bugs in\
+        grassy areas. It\
+        has to flap its\
+        short wings at\
+        high speed to\
+        stay airborne
+    species: TINY BIRD
+    height: 1#FEET0#INCH
+    weight: 4.0lb
+}
+[FEAROW] {
+    index: 21
+    hp: 65
+    attack: 90
+    defense: 65
+    speed: 100
+    special: 61
+    type: NORMAL, FLYING
+    catch_rate: 90
+    base_exp: 162
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 15, 20, 31, 32, 34, 39, 43, 44, 50, 52
+    moves_1: PECK, GROWL, LEER
+    moves_9: LEER
+    moves_15: FURY_ATTACK
+    moves_25: MIRROR_MOVE
+    moves_34: DRILL_PECK
+    moves_43: AGILITY
+    pokedex: With its huge and\
+        magnificent wings,\
+        it can keep aloft\
+        without ever\
+        having to land\
+        for rest
+    species: BEAK
+    height: 3#FEET11#INCH
+    weight: 84.0lb
+}
+[EKANS] {
+    index: 22
+    hp: 35
+    attack: 60
+    defense: 44
+    speed: 55
+    special: 40
+    type: POISON
+    catch_rate: 255
+    base_exp: 62
+    exp_table: 0
+    tm: 6, 8, 9, 10, 20, 21, 26, 27, 28, 31, 32, 34, 40, 44, 48, 50, 54
+    moves_1: WRAP, LEER
+    moves_10: POISON_STING
+    moves_17: BITE
+    moves_24: GLARE
+    moves_31: SCREECH
+    moves_38: ACID
+    evolution: ARBOK, 22
+    pokedex: Moves silently\
+        and stealthily.\
+        Eats the eggs of\
+        birds, such as\
+        PIDGEY and\
+        SPEAROW, whole
+    species: SNAKE
+    height: 6#FEET7#INCH
+    weight: 15.0lb
+}
+[ARBOK] {
+    index: 23
+    hp: 60
+    attack: 85
+    defense: 69
+    speed: 80
+    special: 65
+    type: POISON
+    catch_rate: 90
+    base_exp: 147
+    exp_table: 0
+    tm: 6, 8, 9, 10, 15, 20, 21, 26, 27, 28, 31, 32, 34, 40, 44, 48, 50, 54
+    moves_1: WRAP, LEER, POISON_STING
+    moves_10: POISON_STING
+    moves_17: BITE
+    moves_27: GLARE
+    moves_36: SCREECH
+    moves_47: ACID
+    pokedex: It is rumored that\
+        the ferocious\
+        warning markings\
+        on its belly\
+        differ from area\
+        to area
+    species: COBRA
+    height: 11#FEET6#INCH
+    weight: 143.0lb
+}
+[PIKACHU] {
+    index: 24
+    hp: 35
+    attack: 55
+    defense: 30
+    speed: 90
+    special: 50
+    type: ELECTRIC
+    catch_rate: 190
+    base_exp: 82
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 16, 17, 19, 20, 24, 25, 31, 32, 33, 34, 39, 40, 44, 45, 50, 55
+    moves_1: THUNDERSHOCK, GROWL
+    moves_9: THUNDER_WAVE
+    moves_16: QUICK_ATTACK
+    moves_26: SWIFT
+    moves_33: AGILITY
+    moves_43: THUNDER
+    pokedex: When several of\
+        these POKEMON\
+        gather, their\
+        electricity could\
+        build and cause\
+        lightning storms
+    species: MOUSE
+    height: 1#FEET4#INCH
+    weight: 13.0lb
+}
+[RAICHU] {
+    index: 25
+    hp: 60
+    attack: 90
+    defense: 55
+    speed: 100
+    special: 90
+    type: ELECTRIC
+    catch_rate: 75
+    base_exp: 122
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 16, 17, 19, 20, 24, 25, 31, 32, 33, 34, 39, 40, 44, 45, 50, 55
+    moves_1: THUNDERSHOCK, GROWL, THUNDER_WAVE
+    pokedex: Its long tail\
+        serves as a\
+        ground to protect\
+        itself from its\
+        own high voltage\
+        power
+    species: MOUSE
+    height: 2#FEET7#INCH
+    weight: 66.0lb
+}
+[SANDSHREW] {
+    index: 26
+    hp: 50
+    attack: 75
+    defense: 85
+    speed: 40
+    special: 30
+    type: GROUND
+    catch_rate: 255
+    base_exp: 93
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 17, 19, 20, 26, 27, 28, 31, 32, 34, 39, 40, 44, 48, 50, 51, 54
+    moves_1: SCRATCH
+    moves_10: SAND_ATTACK
+    moves_17: SLASH
+    moves_24: POISON_STING
+    moves_31: SWIFT
+    moves_38: FURY_SWIPES
+    evolution: SANDSLASH, 22
+    pokedex: Burrows deep\
+        underground in\
+        arid locations\
+        far from water.\
+        It only emerges\
+        to hunt for food
+    species: MOUSE
+    height: 2#FEET0#INCH
+    weight: 26.0lb
+}
+[SANDSLASH] {
+    index: 27
+    hp: 75
+    attack: 100
+    defense: 110
+    speed: 65
+    special: 55
+    type: GROUND
+    catch_rate: 90
+    base_exp: 163
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 15, 17, 19, 20, 26, 27, 28, 31, 32, 34, 39, 40, 44, 48, 50, 51, 54
+    moves_1: SCRATCH, SAND_ATTACK
+    moves_10: SAND_ATTACK
+    moves_17: SLASH
+    moves_27: POISON_STING
+    moves_36: SWIFT
+    moves_47: FURY_SWIPES
+    pokedex: Curls up into a\
+        spiny ball when\
+        threatened. It\
+        can roll while\
+        curled up to\
+        attack or escape
+    species: MOUSE
+    height: 3#FEET3#INCH
+    weight: 65.0lb
+}
+[NIDORAN_F] {
+    index: 28
+    hp: 55
+    attack: 47
+    defense: 52
+    speed: 41
+    special: 40
+    type: POISON
+    catch_rate: 235
+    base_exp: 59
+    exp_table: 3
+    tm: 6, 8, 9, 10, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+    moves_1: GROWL, TACKLE
+    moves_8: SCRATCH
+    moves_14: POISON_STING
+    moves_21: TAIL_WHIP
+    moves_29: BITE
+    moves_36: FURY_SWIPES
+    moves_43: DOUBLE_KICK
+    evolution: NIDORINA, 16
+    pokedex: Although small,\
+        its venomous\
+        barbs render this\
+        POKEMON dangerous.\
+        The female has\
+        smaller horns
+    species: POISON PIN
+    height: 1#FEET4#INCH
+    weight: 15.0lb
+}
+[NIDORINA] {
+    index: 29
+    hp: 70
+    attack: 62
+    defense: 67
+    speed: 56
+    special: 55
+    type: POISON
+    catch_rate: 120
+    base_exp: 117
+    exp_table: 3
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+    moves_1: GROWL, TACKLE, SCRATCH
+    moves_8: SCRATCH
+    moves_14: POISON_STING
+    moves_23: TAIL_WHIP
+    moves_32: BITE
+    moves_41: FURY_SWIPES
+    moves_50: DOUBLE_KICK
+    pokedex: The female's horn\
+        develops slowly.\
+        Prefers physical\
+        attacks such as\
+        clawing and\
+        biting
+    species: POISON PIN
+    height: 2#FEET7#INCH
+    weight: 44.0lb
+}
+[NIDOQUEEN] {
+    index: 30
+    hp: 90
+    attack: 82
+    defense: 87
+    speed: 76
+    special: 75
+    type: POISON, GROUND
+    catch_rate: 45
+    base_exp: 194
+    exp_table: 3
+    tm: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 26, 27, 31, 32, 33, 34, 38, 40, 44, 48, 50, 53, 54
+    moves_1: TACKLE, SCRATCH, TAIL_WHIP, BODY_SLAM
+    moves_8: SCRATCH
+    moves_14: POISON_STING
+    moves_23: BODY_SLAM
+    pokedex: Its hard scales\
+        provide strong\
+        protection. It\
+        uses its hefty\
+        bulk to execute\
+        powerful moves
+    species: DRILL
+    height: 4#FEET3#INCH
+    weight: 132.0lb
+}
+[NIDORAN_M] {
+    index: 31
+    hp: 46
+    attack: 57
+    defense: 40
+    speed: 50
+    special: 40
+    type: POISON
+    catch_rate: 235
+    base_exp: 60
+    exp_table: 3
+    tm: 6, 7, 8, 9, 10, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+    moves_1: LEER, TACKLE
+    moves_8: HORN_ATTACK
+    moves_14: POISON_STING
+    moves_21: FOCUS_ENERGY
+    moves_29: FURY_ATTACK
+    moves_36: HORN_DRILL
+    moves_43: DOUBLE_KICK
+    evolution: NIDORINO, 16
+    pokedex: Stiffens its ears\
+        to sense danger.\
+        The larger its\
+        horns, the more\
+        powerful its\
+        secreted venom
+    species: POISON PIN
+    height: 1#FEET8#INCH
+    weight: 20.0lb
+}
+[NIDORINO] {
+    index: 32
+    hp: 61
+    attack: 72
+    defense: 57
+    speed: 65
+    special: 55
+    type: POISON
+    catch_rate: 120
+    base_exp: 118
+    exp_table: 3
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 24, 25, 31, 32, 33, 34, 40, 44, 50
+    moves_1: LEER, TACKLE, HORN_ATTACK
+    moves_8: HORN_ATTACK
+    moves_14: POISON_STING
+    moves_23: FOCUS_ENERGY
+    moves_32: FURY_ATTACK
+    moves_41: HORN_DRILL
+    moves_50: DOUBLE_KICK
+    pokedex: An aggressive\
+        POKEMON that is\
+        quick to attack.\
+        The horn on its\
+        head secretes a\
+        powerful venom
+    species: POISON PIN
+    height: 2#FEET11#INCH
+    weight: 43.0lb
+}
+[NIDOKING] {
+    index: 33
+    hp: 81
+    attack: 92
+    defense: 77
+    speed: 85
+    special: 75
+    type: POISON, GROUND
+    catch_rate: 45
+    base_exp: 195
+    exp_table: 3
+    tm: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 26, 27, 31, 32, 33, 34, 38, 40, 44, 48, 50, 53, 54
+    moves_1: TACKLE, HORN_ATTACK, POISON_STING, THRASH
+    moves_8: HORN_ATTACK
+    moves_14: POISON_STING
+    moves_23: THRASH
+    pokedex: It uses its\
+        powerful tail in\
+        battle to smash,\
+        constrict, then\
+        break the prey's\
+        bones
+    species: DRILL
+    height: 4#FEET7#INCH
+    weight: 137.0lb
+}
+[CLEFAIRY] {
+    index: 34
+    hp: 70
+    attack: 45
+    defense: 48
+    speed: 35
+    special: 60
+    type: NORMAL
+    catch_rate: 150
+    base_exp: 68
+    exp_table: 4
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 35, 38, 40, 44, 45, 46, 49, 50, 54, 55
+    moves_1: POUND, GROWL
+    moves_13: SING
+    moves_18: DOUBLESLAP
+    moves_24: MINIMIZE
+    moves_31: METRONOME
+    moves_39: DEFENSE_CURL
+    moves_48: LIGHT_SCREEN
+    pokedex: Its magical and\
+        cute appeal has\
+        many admirers.\
+        It is rare and\
+        found only in\
+        certain areas
+    species: FAIRY
+    height: 2#FEET0#INCH
+    weight: 17.0lb
+}
+[CLEFABLE] {
+    index: 35
+    hp: 95
+    attack: 70
+    defense: 73
+    speed: 60
+    special: 85
+    type: NORMAL
+    catch_rate: 25
+    base_exp: 129
+    exp_table: 4
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 35, 38, 40, 44, 45, 46, 49, 50, 54, 55
+    moves_1: SING, DOUBLESLAP, MINIMIZE, METRONOME
+    pokedex: A timid fairy\
+        POKEMON that is\
+        rarely seen. It\
+        will run and hide\
+        the moment it\
+        senses people
+    species: FAIRY
+    height: 4#FEET3#INCH
+    weight: 88.0lb
+}
+[VULPIX] {
+    index: 36
+    hp: 38
+    attack: 41
+    defense: 40
+    speed: 65
+    special: 65
+    type: FIRE
+    catch_rate: 190
+    base_exp: 63
+    exp_table: 0
+    tm: 6, 8, 9, 10, 20, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: EMBER, TAIL_WHIP
+    moves_16: QUICK_ATTACK
+    moves_21: ROAR
+    moves_28: CONFUSE_RAY
+    moves_35: FLAMETHROWER
+    moves_42: FIRE_SPIN
+    pokedex: At the time of\
+        birth, it has\
+        just one tail.\
+        The tail splits\
+        from its tip as\
+        it grows older
+    species: FOX
+    height: 2#FEET0#INCH
+    weight: 22.0lb
+}
+[NINETALES] {
+    index: 37
+    hp: 73
+    attack: 76
+    defense: 75
+    speed: 100
+    special: 100
+    type: FIRE
+    catch_rate: 75
+    base_exp: 178
+    exp_table: 0
+    tm: 6, 8, 9, 10, 15, 20, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: EMBER, TAIL_WHIP, QUICK_ATTACK, ROAR
+    pokedex: Very smart and\
+        very vengeful.\
+        Grabbing one of\
+        its many tails\
+        could result in a\
+        1000-year curse
+    species: FOX
+    height: 3#FEET7#INCH
+    weight: 44.0lb
+}
+[JIGGLYPUFF] {
+    index: 38
+    hp: 115
+    attack: 45
+    defense: 20
+    speed: 20
+    special: 25
+    type: NORMAL
+    catch_rate: 170
+    base_exp: 76
+    exp_table: 4
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 38, 40, 44, 45, 46, 49, 50, 54, 55
+    moves_1: SING
+    moves_9: POUND
+    moves_14: DISABLE
+    moves_19: DEFENSE_CURL
+    moves_24: DOUBLESLAP
+    moves_29: REST
+    moves_34: BODY_SLAM
+    moves_39: DOUBLE_EDGE
+    pokedex: When its huge eyes\
+        light up, it sings\
+        a mysteriously\
+        soothing melody\
+        that lulls its\
+        enemies to sleep
+    species: BALLOON
+    height: 1#FEET8#INCH
+    weight: 12.0lb
+}
+[WIGGLYTUFF] {
+    index: 39
+    hp: 140
+    attack: 70
+    defense: 45
+    speed: 45
+    special: 50
+    type: NORMAL
+    catch_rate: 50
+    base_exp: 109
+    exp_table: 4
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 38, 40, 44, 45, 46, 49, 50, 54, 55
+    moves_1: SING, DISABLE, DEFENSE_CURL, DOUBLESLAP
+    pokedex: The body is soft\
+        and rubbery. When\
+        angered, it will\
+        suck in air and\
+        inflate itself to\
+        an enormous size
+    species: BALLOON
+    height: 3#FEET3#INCH
+    weight: 26.0lb
+}
+[ZUBAT] {
+    index: 40
+    hp: 40
+    attack: 45
+    defense: 35
+    speed: 55
+    special: 40
+    type: POISON, FLYING
+    catch_rate: 255
+    base_exp: 54
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 20, 21, 31, 32, 34, 39, 44, 50
+    moves_1: LEECH_LIFE
+    moves_10: SUPERSONIC
+    moves_15: BITE
+    moves_21: CONFUSE_RAY
+    moves_28: WING_ATTACK
+    moves_36: HAZE
+    evolution: GOLBAT, 22
+    pokedex: Forms colonies in\
+        perpetually dark\
+        places. Uses\
+        ultrasonic waves\
+        to identify and\
+        approach targets
+    species: BAT
+    height: 2#FEET7#INCH
+    weight: 17.0lb
+}
+[GOLBAT] {
+    index: 41
+    hp: 75
+    attack: 80
+    defense: 70
+    speed: 90
+    special: 75
+    type: POISON, FLYING
+    catch_rate: 90
+    base_exp: 171
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 15, 20, 21, 31, 32, 34, 39, 44, 50
+    moves_1: LEECH_LIFE, SCREECH, BITE
+    moves_10: SUPERSONIC
+    moves_15: BITE
+    moves_21: CONFUSE_RAY
+    moves_32: WING_ATTACK
+    moves_43: HAZE
+    pokedex: Once it strikes,\
+        it will not stop\
+        draining energy\
+        from the victim\
+        even if it gets\
+        too heavy to fly
+    species: BAT
+    height: 5#FEET3#INCH
+    weight: 121.0lb
+}
+[ODDISH] {
+    index: 42
+    hp: 45
+    attack: 50
+    defense: 55
+    speed: 30
+    special: 75
+    type: GRASS, POISON
+    catch_rate: 255
+    base_exp: 78
+    exp_table: 3
+    tm: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: ABSORB
+    moves_15: POISONPOWDER
+    moves_17: STUN_SPORE
+    moves_19: SLEEP_POWDER
+    moves_24: ACID
+    moves_33: PETAL_DANCE
+    moves_46: SOLARBEAM
+    evolution: GLOOM, 21
+    pokedex: During the day,\
+        it keeps its face\
+        buried in the\
+        ground. At night,\
+        it wanders around\
+        sowing its seeds
+    species: WEED
+    height: 1#FEET8#INCH
+    weight: 12.0lb
+}
+[GLOOM] {
+    index: 43
+    hp: 60
+    attack: 65
+    defense: 70
+    speed: 40
+    special: 85
+    type: GRASS, POISON
+    catch_rate: 120
+    base_exp: 132
+    exp_table: 3
+    tm: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: ABSORB, POISONPOWDER, STUN_SPORE
+    moves_15: POISONPOWDER
+    moves_17: STUN_SPORE
+    moves_19: SLEEP_POWDER
+    moves_28: ACID
+    moves_38: PETAL_DANCE
+    moves_52: SOLARBEAM
+    pokedex: The fluid that\
+        oozes from its\
+        mouth isn't drool.\
+        It is a nectar\
+        that is used to\
+        attract prey
+    species: WEED
+    height: 2#FEET7#INCH
+    weight: 19.0lb
+}
+[VILEPLUME] {
+    index: 44
+    hp: 75
+    attack: 80
+    defense: 85
+    speed: 50
+    special: 100
+    type: GRASS, POISON
+    catch_rate: 45
+    base_exp: 184
+    exp_table: 3
+    tm: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: STUN_SPORE, SLEEP_POWDER, ACID, PETAL_DANCE
+    moves_15: POISONPOWDER
+    moves_17: STUN_SPORE
+    moves_19: SLEEP_POWDER
+    pokedex: The larger its\
+        petals, the more\
+        toxic pollen it\
+        contains. Its big\
+        head is heavy and\
+        hard to hold up
+    species: FLOWER
+    height: 3#FEET11#INCH
+    weight: 41.0lb
+}
+[PARAS] {
+    index: 45
+    hp: 35
+    attack: 70
+    defense: 55
+    speed: 25
+    special: 55
+    type: BUG, GRASS
+    catch_rate: 190
+    base_exp: 70
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 20, 21, 22, 28, 31, 32, 33, 34, 40, 44, 50, 51
+    moves_1: SCRATCH
+    moves_13: STUN_SPORE
+    moves_20: LEECH_LIFE
+    moves_27: SPORE
+    moves_34: SLASH
+    moves_41: GROWTH
+    evolution: PARASECT, 24
+    pokedex: Burrows to suck\
+        tree roots. The\
+        mushrooms on its\
+        back grow by draw-\
+        ing nutrients from\
+        the bug host
+    species: MUSHROOM
+    height: 1#FEET0#INCH
+    weight: 12.0lb
+}
+[PARASECT] {
+    index: 46
+    hp: 60
+    attack: 95
+    defense: 80
+    speed: 30
+    special: 80
+    type: BUG, GRASS
+    catch_rate: 75
+    base_exp: 128
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 15, 20, 21, 22, 28, 31, 32, 33, 34, 40, 44, 50, 51
+    moves_1: SCRATCH, STUN_SPORE, LEECH_LIFE
+    moves_13: STUN_SPORE
+    moves_20: LEECH_LIFE
+    moves_30: SPORE
+    moves_39: SLASH
+    moves_48: GROWTH
+    pokedex: A host-parasite\
+        pair in which the\
+        parasite mushroom\
+        has taken over the\
+        host bug. Prefers\
+        damp places
+    species: MUSHROOM
+    height: 3#FEET3#INCH
+    weight: 65.0lb
+}
+[VENONAT] {
+    index: 47
+    hp: 60
+    attack: 55
+    defense: 50
+    speed: 45
+    special: 40
+    type: BUG, POISON
+    catch_rate: 190
+    base_exp: 75
+    exp_table: 0
+    tm: 6, 9, 10, 20, 21, 22, 29, 31, 32, 33, 34, 44, 46, 50
+    moves_1: TACKLE, DISABLE
+    moves_24: POISONPOWDER
+    moves_27: LEECH_LIFE
+    moves_30: STUN_SPORE
+    moves_35: PSYBEAM
+    moves_38: SLEEP_POWDER
+    moves_43: PSYCHIC_M
+    evolution: VENOMOTH, 31
+    pokedex: Lives in the\
+        shadows of tall\
+        trees where it\
+        eats insects. It\
+        is attracted by\
+        light at night
+    species: INSECT
+    height: 3#FEET3#INCH
+    weight: 66.0lb
+}
+[VENOMOTH] {
+    index: 48
+    hp: 70
+    attack: 65
+    defense: 60
+    speed: 90
+    special: 90
+    type: BUG, POISON
+    catch_rate: 75
+    base_exp: 138
+    exp_table: 0
+    tm: 2, 4, 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 39, 44, 46, 50
+    moves_1: TACKLE, DISABLE, POISONPOWDER, LEECH_LIFE
+    moves_24: POISONPOWDER
+    moves_27: LEECH_LIFE
+    moves_30: STUN_SPORE
+    moves_38: PSYBEAM
+    moves_43: SLEEP_POWDER
+    moves_50: PSYCHIC_M
+    pokedex: The dust-like\
+        scales covering\
+        its wings are\
+        color coded to\
+        indicate the kinds\
+        of poison it has
+    species: POISONMOTH
+    height: 4#FEET11#INCH
+    weight: 28.0lb
+}
+[DIGLETT] {
+    index: 49
+    hp: 10
+    attack: 55
+    defense: 25
+    speed: 95
+    special: 45
+    type: GROUND
+    catch_rate: 255
+    base_exp: 81
+    exp_table: 0
+    tm: 6, 8, 9, 10, 20, 26, 27, 28, 31, 32, 34, 44, 48, 50
+    moves_1: SCRATCH
+    moves_15: GROWL
+    moves_19: DIG
+    moves_24: SAND_ATTACK
+    moves_31: SLASH
+    moves_40: EARTHQUAKE
+    evolution: DUGTRIO, 26
+    pokedex: Lives about one\
+        yard underground\
+        where it feeds on\
+        plant roots. It\
+        sometimes appears\
+        above ground
+    species: MOLE
+    height: 0#FEET8#INCH
+    weight: 2.0lb
+}
+[DUGTRIO] {
+    index: 50
+    hp: 35
+    attack: 80
+    defense: 50
+    speed: 120
+    special: 70
+    type: GROUND
+    catch_rate: 50
+    base_exp: 153
+    exp_table: 0
+    tm: 6, 8, 9, 10, 15, 20, 26, 27, 28, 31, 32, 34, 44, 48, 50
+    moves_1: SCRATCH, GROWL, DIG
+    moves_15: GROWL
+    moves_19: DIG
+    moves_24: SAND_ATTACK
+    moves_35: SLASH
+    moves_47: EARTHQUAKE
+    pokedex: A team of DIGLETT\
+        triplets.\
+        It triggers huge\
+        earthquakes by\
+        burrowing 60 miles\
+        underground
+    species: MOLE
+    height: 2#FEET4#INCH
+    weight: 73.0lb
+}
+[MEOWTH] {
+    index: 51
+    hp: 40
+    attack: 45
+    defense: 35
+    speed: 90
+    special: 40
+    type: NORMAL
+    catch_rate: 255
+    base_exp: 69
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 16, 20, 24, 25, 31, 32, 34, 39, 40, 44, 50
+    moves_1: SCRATCH, GROWL
+    moves_12: BITE
+    moves_17: PAY_DAY
+    moves_24: SCREECH
+    moves_33: FURY_SWIPES
+    moves_44: SLASH
+    evolution: PERSIAN, 28
+    pokedex: Adores circular\
+        objects. Wanders\
+        the streets on a\
+        nightly basis to\
+        look for dropped\
+        loose change
+    species: SCRATCHCAT
+    height: 1#FEET4#INCH
+    weight: 9.0lb
+}
+[PERSIAN] {
+    index: 52
+    hp: 65
+    attack: 70
+    defense: 60
+    speed: 115
+    special: 65
+    type: NORMAL
+    catch_rate: 90
+    base_exp: 148
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 15, 16, 20, 24, 25, 31, 32, 34, 39, 40, 44, 50
+    moves_1: SCRATCH, GROWL, BITE, SCREECH
+    moves_12: BITE
+    moves_17: PAY_DAY
+    moves_24: SCREECH
+    moves_37: FURY_SWIPES
+    moves_51: SLASH
+    pokedex: Although its fur\
+        has many admirers,\
+        it is tough to\
+        raise as a pet\
+        because of its\
+        fickle meanness
+    species: CLASSY CAT
+    height: 3#FEET3#INCH
+    weight: 71.0lb
+}
+[PSYDUCK] {
+    index: 53
+    hp: 50
+    attack: 52
+    defense: 48
+    speed: 55
+    special: 50
+    type: WATER
+    catch_rate: 190
+    base_exp: 80
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 18, 19, 20, 28, 31, 32, 34, 39, 40, 44, 50, 53, 54
+    moves_1: SCRATCH
+    moves_28: TAIL_WHIP
+    moves_31: DISABLE
+    moves_36: CONFUSION
+    moves_43: FURY_SWIPES
+    moves_52: HYDRO_PUMP
+    evolution: GOLDUCK, 33
+    pokedex: While lulling its\
+        enemies with its\
+        vacant look, this\
+        wily POKEMON will\
+        use psychokinetic\
+        powers
+    species: DUCK
+    height: 2#FEET7#INCH
+    weight: 43.0lb
+}
+[GOLDUCK] {
+    index: 54
+    hp: 80
+    attack: 82
+    defense: 78
+    speed: 85
+    special: 80
+    type: WATER
+    catch_rate: 75
+    base_exp: 174
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 28, 31, 32, 34, 39, 40, 44, 50, 53, 54
+    moves_1: SCRATCH, TAIL_WHIP, DISABLE
+    moves_28: TAIL_WHIP
+    moves_31: DISABLE
+    moves_39: CONFUSION
+    moves_48: FURY_SWIPES
+    moves_59: HYDRO_PUMP
+    pokedex: Often seen swim-\
+        ming elegantly by\
+        lake shores. It\
+        is often mistaken\
+        for the Japanese\
+        monster, Kappa
+    species: DUCK
+    height: 5#FEET7#INCH
+    weight: 169.0lb
+}
+[MANKEY] {
+    index: 55
+    hp: 40
+    attack: 80
+    defense: 35
+    speed: 70
+    special: 35
+    type: FIGHTING
+    catch_rate: 190
+    base_exp: 74
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 16, 17, 18, 19, 20, 24, 25, 28, 31, 32, 34, 35, 39, 40, 44, 48, 50, 54
+    moves_1: SCRATCH, LEER
+    moves_15: KARATE_CHOP
+    moves_21: FURY_SWIPES
+    moves_27: FOCUS_ENERGY
+    moves_33: SEISMIC_TOSS
+    moves_39: THRASH
+    evolution: PRIMEAPE, 28
+    pokedex: Extremely quick to\
+        anger. It could\
+        be docile one\
+        moment then\
+        thrashing away\
+        the next instant
+    species: PIG MONKEY
+    height: 1#FEET8#INCH
+    weight: 62.0lb
+}
+[PRIMEAPE] {
+    index: 56
+    hp: 65
+    attack: 105
+    defense: 60
+    speed: 95
+    special: 60
+    type: FIGHTING
+    catch_rate: 75
+    base_exp: 149
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 16, 17, 18, 19, 20, 24, 25, 28, 31, 32, 34, 35, 39, 40, 44, 48, 50, 54
+    moves_1: SCRATCH, LEER, KARATE_CHOP, FURY_SWIPES
+    moves_15: KARATE_CHOP
+    moves_21: FURY_SWIPES
+    moves_27: FOCUS_ENERGY
+    moves_37: SEISMIC_TOSS
+    moves_46: THRASH
+    pokedex: Always furious\
+        and tenacious to\
+        boot. It will not\
+        abandon chasing\
+        its quarry until\
+        it is caught
+    species: PIG MONKEY
+    height: 3#FEET3#INCH
+    weight: 71.0lb
+}
+[GROWLITHE] {
+    index: 57
+    hp: 55
+    attack: 70
+    defense: 45
+    speed: 60
+    special: 50
+    type: FIRE
+    catch_rate: 190
+    base_exp: 91
+    exp_table: 5
+    tm: 6, 8, 9, 10, 20, 23, 28, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: BITE, ROAR
+    moves_18: EMBER
+    moves_23: LEER
+    moves_30: TAKE_DOWN
+    moves_39: AGILITY
+    moves_50: FLAMETHROWER
+    pokedex: Very protective\
+        of its territory.\
+        It will bark and\
+        bite to repel\
+        intruders from\
+        its space
+    species: PUPPY
+    height: 2#FEET4#INCH
+    weight: 42.0lb
+}
+[ARCANINE] {
+    index: 58
+    hp: 90
+    attack: 110
+    defense: 80
+    speed: 95
+    special: 80
+    type: FIRE
+    catch_rate: 75
+    base_exp: 213
+    exp_table: 5
+    tm: 6, 8, 9, 10, 15, 20, 23, 28, 30, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: ROAR, EMBER, LEER, TAKE_DOWN
+    pokedex: A POKEMON that\
+        has been admired\
+        since the past\
+        for its beauty.\
+        It runs agilely\
+        as if on wings
+    species: LEGENDARY
+    height: 6#FEET3#INCH
+    weight: 342.0lb
+}
+[POLIWAG] {
+    index: 59
+    hp: 40
+    attack: 50
+    defense: 40
+    speed: 90
+    special: 40
+    type: WATER
+    catch_rate: 255
+    base_exp: 77
+    exp_table: 3
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 20, 29, 31, 32, 34, 40, 44, 46, 50, 53
+    moves_1: BUBBLE
+    moves_16: HYPNOSIS
+    moves_19: WATER_GUN
+    moves_25: DOUBLESLAP
+    moves_31: BODY_SLAM
+    moves_38: AMNESIA
+    moves_45: HYDRO_PUMP
+    evolution: POLIWHIRL, 25
+    pokedex: Its newly grown\
+        legs prevent it\
+        from running. It\
+        appears to prefer\
+        swimming than\
+        trying to stand
+    species: TADPOLE
+    height: 2#FEET0#INCH
+    weight: 27.0lb
+}
+[POLIWHIRL] {
+    index: 60
+    hp: 65
+    attack: 65
+    defense: 65
+    speed: 90
+    special: 50
+    type: WATER
+    catch_rate: 120
+    base_exp: 131
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 26, 27, 29, 31, 32, 34, 35, 40, 44, 46, 50, 53, 54
+    moves_1: BUBBLE, HYPNOSIS, WATER_GUN
+    moves_16: HYPNOSIS
+    moves_19: WATER_GUN
+    moves_26: DOUBLESLAP
+    moves_33: BODY_SLAM
+    moves_41: AMNESIA
+    moves_49: HYDRO_PUMP
+    pokedex: Capable of living\
+        in or out of\
+        water. When out\
+        of water, it\
+        sweats to keep\
+        its body slimy
+    species: TADPOLE
+    height: 3#FEET3#INCH
+    weight: 44.0lb
+}
+[POLIWRATH] {
+    index: 61
+    hp: 90
+    attack: 85
+    defense: 95
+    speed: 70
+    special: 70
+    type: WATER, FIGHTING
+    catch_rate: 45
+    base_exp: 185
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 29, 31, 32, 34, 35, 40, 44, 46, 50, 53, 54
+    moves_1: HYPNOSIS, WATER_GUN, DOUBLESLAP, BODY_SLAM
+    moves_16: HYPNOSIS
+    moves_19: WATER_GUN
+    pokedex: An adept swimmer\
+        at both the front\
+        crawl and breast\
+        stroke. Easily\
+        overtakes the best\
+        human swimmers
+    species: TADPOLE
+    height: 4#FEET3#INCH
+    weight: 119.0lb
+}
+[ABRA] {
+    index: 62
+    hp: 25
+    attack: 20
+    defense: 15
+    speed: 90
+    special: 105
+    type: PSYCHIC
+    catch_rate: 200
+    base_exp: 73
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40, 44, 45, 46, 49, 50, 55
+    moves_1: TELEPORT
+    evolution: KADABRA, 16
+    pokedex: Using its ability\
+        to read minds, it\
+        will identify\
+        impending danger\
+        and TELEPORT to\
+        safety
+    species: PSI
+    height: 2#FEET11#INCH
+    weight: 43.0lb
+}
+[KADABRA] {
+    index: 63
+    hp: 40
+    attack: 35
+    defense: 30
+    speed: 105
+    special: 120
+    type: PSYCHIC
+    catch_rate: 100
+    base_exp: 145
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34, 35, 40, 44, 45, 46, 49, 50, 55
+    moves_1: TELEPORT, CONFUSION, DISABLE
+    moves_16: CONFUSION
+    moves_20: DISABLE
+    moves_27: PSYBEAM
+    moves_31: RECOVER
+    moves_38: PSYCHIC_M
+    moves_42: REFLECT
+    evolution: ALAKAZAM, TRADE
+    pokedex: It emits special\
+        alpha waves from\
+        its body that\
+        induce headaches\
+        just by being\
+        close by
+    species: PSI
+    height: 4#FEET3#INCH
+    weight: 125.0lb
+}
+[ALAKAZAM] {
+    index: 64
+    hp: 55
+    attack: 50
+    defense: 45
+    speed: 120
+    special: 135
+    type: PSYCHIC
+    catch_rate: 50
+    base_exp: 186
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 28, 29, 30, 31, 32, 33, 34, 35, 40, 44, 45, 46, 49, 50, 55
+    moves_1: TELEPORT, CONFUSION, DISABLE
+    moves_16: CONFUSION
+    moves_20: DISABLE
+    moves_27: PSYBEAM
+    moves_31: RECOVER
+    moves_38: PSYCHIC_M
+    moves_42: REFLECT
+    pokedex: Its brain can out-\
+        perform a super-\
+        computer.\
+        Its intelligence\
+        quotient is said\
+        to be 5,000
+    species: PSI
+    height: 4#FEET11#INCH
+    weight: 106.0lb
+}
+[MACHOP] {
+    index: 65
+    hp: 70
+    attack: 80
+    defense: 50
+    speed: 35
+    special: 35
+    type: FIGHTING
+    catch_rate: 180
+    base_exp: 88
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 38, 40, 44, 48, 50, 54
+    moves_1: KARATE_CHOP
+    moves_20: LOW_KICK
+    moves_25: LEER
+    moves_32: FOCUS_ENERGY
+    moves_39: SEISMIC_TOSS
+    moves_46: SUBMISSION
+    evolution: MACHOKE, 28
+    pokedex: Loves to build\
+        its muscles.\
+        It trains in all\
+        styles of martial\
+        arts to become\
+        even stronger
+    species: SUPERPOWER
+    height: 2#FEET7#INCH
+    weight: 43.0lb
+}
+[MACHOKE] {
+    index: 66
+    hp: 80
+    attack: 100
+    defense: 70
+    speed: 45
+    special: 50
+    type: FIGHTING
+    catch_rate: 90
+    base_exp: 146
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 38, 40, 44, 48, 50, 54
+    moves_1: KARATE_CHOP, LOW_KICK, LEER
+    moves_20: LOW_KICK
+    moves_25: LEER
+    moves_36: FOCUS_ENERGY
+    moves_44: SEISMIC_TOSS
+    moves_52: SUBMISSION
+    evolution: MACHAMP, TRADE
+    pokedex: Its muscular body\
+        is so powerful, it\
+        must wear a power\
+        save belt to be\
+        able to regulate\
+        its motions
+    species: SUPERPOWER
+    height: 4#FEET11#INCH
+    weight: 155.0lb
+}
+[MACHAMP] {
+    index: 67
+    hp: 90
+    attack: 130
+    defense: 80
+    speed: 55
+    special: 65
+    type: FIGHTING
+    catch_rate: 45
+    base_exp: 193
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 38, 40, 44, 48, 50, 54
+    moves_1: KARATE_CHOP, LOW_KICK, LEER
+    moves_20: LOW_KICK
+    moves_25: LEER
+    moves_36: FOCUS_ENERGY
+    moves_44: SEISMIC_TOSS
+    moves_52: SUBMISSION
+    pokedex: Using its heavy\
+        muscles, it throws\
+        powerful punches\
+        that can send the\
+        victim clear over\
+        the horizon
+    species: SUPERPOWER
+    height: 5#FEET3#INCH
+    weight: 287.0lb
+}
+[BELLSPROUT] {
+    index: 68
+    hp: 50
+    attack: 75
+    defense: 35
+    speed: 40
+    special: 70
+    type: GRASS, POISON
+    catch_rate: 255
+    base_exp: 84
+    exp_table: 3
+    tm: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: VINE_WHIP, GROWTH
+    moves_13: WRAP
+    moves_15: POISONPOWDER
+    moves_18: SLEEP_POWDER
+    moves_21: STUN_SPORE
+    moves_26: ACID
+    moves_33: RAZOR_LEAF
+    moves_42: SLAM
+    evolution: WEEPINBELL, 21
+    pokedex: A carnivorous\
+        POKEMON that traps\
+        and eats bugs.\
+        It uses its root\
+        feet to soak up\
+        needed moisture
+    species: FLOWER
+    height: 2#FEET4#INCH
+    weight: 9.0lb
+}
+[WEEPINBELL] {
+    index: 69
+    hp: 65
+    attack: 90
+    defense: 50
+    speed: 55
+    special: 85
+    type: GRASS, POISON
+    catch_rate: 120
+    base_exp: 151
+    exp_table: 3
+    tm: 3, 6, 9, 10, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: VINE_WHIP, GROWTH, WRAP
+    moves_13: WRAP
+    moves_15: POISONPOWDER
+    moves_18: SLEEP_POWDER
+    moves_23: STUN_SPORE
+    moves_29: ACID
+    moves_38: RAZOR_LEAF
+    moves_49: SLAM
+    pokedex: It spits out\
+        POISONPOWDER to\
+        immobilize the\
+        enemy and then\
+        finishes it with\
+        a spray of ACID
+    species: FLYCATCHER
+    height: 3#FEET3#INCH
+    weight: 14.0lb
+}
+[VICTREEBEL] {
+    index: 70
+    hp: 80
+    attack: 105
+    defense: 65
+    speed: 70
+    special: 100
+    type: GRASS, POISON
+    catch_rate: 45
+    base_exp: 191
+    exp_table: 3
+    tm: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 33, 34, 44, 50, 51
+    moves_1: SLEEP_POWDER, STUN_SPORE, ACID, RAZOR_LEAF
+    moves_13: WRAP
+    moves_15: POISONPOWDER
+    moves_18: SLEEP_POWDER
+    pokedex: Said to live in\
+        huge colonies\
+        deep in jungles,\
+        although no one\
+        has ever returned\
+        from there
+    species: FLYCATCHER
+    height: 5#FEET7#INCH
+    weight: 34.0lb
+}
+[TENTACOOL] {
+    index: 71
+    hp: 40
+    attack: 40
+    defense: 35
+    speed: 70
+    special: 100
+    type: WATER, POISON
+    catch_rate: 190
+    base_exp: 105
+    exp_table: 5
+    tm: 3, 6, 9, 10, 11, 12, 13, 14, 20, 21, 31, 32, 33, 34, 40, 44, 50, 51, 53
+    moves_1: ACID
+    moves_7: SUPERSONIC
+    moves_13: WRAP
+    moves_18: POISON_STING
+    moves_22: WATER_GUN
+    moves_27: CONSTRICT
+    moves_33: BARRIER
+    moves_40: SCREECH
+    moves_48: HYDRO_PUMP
+    evolution: TENTACRUEL, 30
+    pokedex: Drifts in shallow\
+        seas. Anglers who\
+        hook them by\
+        accident are\
+        often punished by\
+        its stinging acid
+    species: JELLYFISH
+    height: 2#FEET11#INCH
+    weight: 100.0lb
+}
+[TENTACRUEL] {
+    index: 72
+    hp: 80
+    attack: 70
+    defense: 65
+    speed: 100
+    special: 120
+    type: WATER, POISON
+    catch_rate: 60
+    base_exp: 205
+    exp_table: 5
+    tm: 3, 6, 9, 10, 11, 12, 13, 14, 15, 20, 21, 31, 32, 33, 34, 40, 44, 50, 51, 53
+    moves_1: ACID, SUPERSONIC, WRAP
+    moves_7: SUPERSONIC
+    moves_13: WRAP
+    moves_18: POISON_STING
+    moves_22: WATER_GUN
+    moves_27: CONSTRICT
+    moves_35: BARRIER
+    moves_43: SCREECH
+    moves_50: HYDRO_PUMP
+    pokedex: The tentacles are\
+        normally kept\
+        short. On hunts,\
+        they are extended\
+        to ensnare and\
+        immobilize prey
+    species: JELLYFISH
+    height: 5#FEET3#INCH
+    weight: 121.0lb
+}
+[GEODUDE] {
+    index: 73
+    hp: 40
+    attack: 80
+    defense: 100
+    speed: 20
+    special: 30
+    type: ROCK, GROUND
+    catch_rate: 255
+    base_exp: 86
+    exp_table: 3
+    tm: 1, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 36, 38, 44, 47, 48, 50, 54
+    moves_1: TACKLE
+    moves_11: DEFENSE_CURL
+    moves_16: ROCK_THROW
+    moves_21: SELFDESTRUCT
+    moves_26: HARDEN
+    moves_31: EARTHQUAKE
+    moves_36: EXPLOSION
+    evolution: GRAVELER, 25
+    pokedex: Found in fields\
+        and mountains.\
+        Mistaking them\
+        for boulders,\
+        people often step\
+        or trip on them
+    species: ROCK
+    height: 1#FEET4#INCH
+    weight: 44.0lb
+}
+[GRAVELER] {
+    index: 74
+    hp: 55
+    attack: 95
+    defense: 115
+    speed: 35
+    special: 45
+    type: ROCK, GROUND
+    catch_rate: 120
+    base_exp: 134
+    exp_table: 3
+    tm: 1, 6, 8, 9, 10, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 36, 38, 44, 47, 48, 50, 54
+    moves_1: TACKLE, DEFENSE_CURL
+    moves_11: DEFENSE_CURL
+    moves_16: ROCK_THROW
+    moves_21: SELFDESTRUCT
+    moves_29: HARDEN
+    moves_36: EARTHQUAKE
+    moves_43: EXPLOSION
+    evolution: GOLEM, TRADE
+    pokedex: Rolls down slopes\
+        to move. It rolls\
+        over any obstacle\
+        without slowing\
+        or changing its\
+        direction
+    species: ROCK
+    height: 3#FEET3#INCH
+    weight: 232.0lb
+}
+[GOLEM] {
+    index: 75
+    hp: 80
+    attack: 110
+    defense: 130
+    speed: 45
+    special: 55
+    type: ROCK, GROUND
+    catch_rate: 45
+    base_exp: 177
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 35, 36, 38, 44, 47, 48, 50, 54
+    moves_1: TACKLE, DEFENSE_CURL
+    moves_11: DEFENSE_CURL
+    moves_16: ROCK_THROW
+    moves_21: SELFDESTRUCT
+    moves_29: HARDEN
+    moves_36: EARTHQUAKE
+    moves_43: EXPLOSION
+    pokedex: Its boulder-like\
+        body is extremely\
+        hard. It can\
+        easily withstand\
+        dynamite blasts\
+        without damage
+    species: MEGATON
+    height: 4#FEET7#INCH
+    weight: 662.0lb
+}
+[PONYTA] {
+    index: 76
+    hp: 50
+    attack: 85
+    defense: 55
+    speed: 90
+    special: 65
+    type: FIRE
+    catch_rate: 190
+    base_exp: 152
+    exp_table: 0
+    tm: 6, 7, 8, 9, 10, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: EMBER
+    moves_30: TAIL_WHIP
+    moves_32: STOMP
+    moves_35: GROWL
+    moves_39: FIRE_SPIN
+    moves_43: TAKE_DOWN
+    moves_48: AGILITY
+    evolution: RAPIDASH, 40
+    pokedex: Its hooves are 10\
+        times harder than\
+        diamonds. It can\
+        trample anything\
+        completely flat\
+        in little time
+    species: FIRE HORSE
+    height: 3#FEET3#INCH
+    weight: 66.0lb
+}
+[RAPIDASH] {
+    index: 77
+    hp: 65
+    attack: 100
+    defense: 70
+    speed: 105
+    special: 80
+    type: FIRE
+    catch_rate: 60
+    base_exp: 192
+    exp_table: 0
+    tm: 6, 7, 8, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: EMBER, TAIL_WHIP, STOMP, GROWL
+    moves_30: TAIL_WHIP
+    moves_32: STOMP
+    moves_35: GROWL
+    moves_39: FIRE_SPIN
+    moves_47: TAKE_DOWN
+    moves_55: AGILITY
+    pokedex: Very competitive,\
+        this POKEMON will\
+        chase anything\
+        that moves fast\
+        in the hopes of\
+        racing it
+    species: FIRE HORSE
+    height: 5#FEET7#INCH
+    weight: 209.0lb
+}
+[SLOWPOKE] {
+    index: 78
+    hp: 90
+    attack: 65
+    defense: 65
+    speed: 15
+    special: 40
+    type: WATER, PSYCHIC
+    catch_rate: 190
+    base_exp: 99
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 16, 20, 26, 27, 28, 29, 30, 31, 32, 33, 34, 38, 39, 40, 44, 45, 46, 49, 50, 53, 54, 55
+    moves_1: CONFUSION
+    moves_18: DISABLE
+    moves_22: HEADBUTT
+    moves_27: GROWL
+    moves_33: WATER_GUN
+    moves_40: AMNESIA
+    moves_48: PSYCHIC_M
+    evolution: SLOWBRO, 37
+    pokedex: Incredibly slow\
+        and dopey. It\
+        takes 5 seconds\
+        for it to feel\
+        pain when under\
+        attack
+    species: DOPEY
+    height: 3#FEET11#INCH
+    weight: 79.0lb
+}
+[SLOWBRO] {
+    index: 79
+    hp: 95
+    attack: 75
+    defense: 110
+    speed: 30
+    special: 80
+    type: WATER, PSYCHIC
+    catch_rate: 75
+    base_exp: 164
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 26, 27, 28, 29, 30, 31, 32, 33, 34, 38, 39, 40, 44, 45, 46, 49, 50, 53, 54, 55
+    moves_1: CONFUSION, DISABLE, HEADBUTT
+    moves_18: DISABLE
+    moves_22: HEADBUTT
+    moves_27: GROWL
+    moves_33: WATER_GUN
+    moves_37: WITHDRAW
+    moves_44: AMNESIA
+    moves_55: PSYCHIC_M
+    pokedex: The SHELLDER that\
+        is latched onto\
+        SLOWPOKE's tail\
+        is said to feed\
+        on the host's left\
+        over scraps
+    species: HERMITCRAB
+    height: 5#FEET3#INCH
+    weight: 173.0lb
+}
+[MAGNEMITE] {
+    index: 80
+    hp: 25
+    attack: 35
+    defense: 70
+    speed: 45
+    special: 95
+    type: ELECTRIC
+    catch_rate: 190
+    base_exp: 89
+    exp_table: 0
+    tm: 6, 9, 10, 20, 24, 25, 30, 31, 32, 33, 34, 39, 44, 45, 50, 55
+    moves_1: TACKLE
+    moves_21: SONICBOOM
+    moves_25: THUNDERSHOCK
+    moves_29: SUPERSONIC
+    moves_35: THUNDER_WAVE
+    moves_41: SWIFT
+    moves_47: SCREECH
+    evolution: MAGNETON, 30
+    pokedex: Uses anti-gravity\
+        to stay suspended.\
+        Appears without\
+        warning and uses\
+        THUNDER WAVE and\
+        similar moves
+    species: MAGNET
+    height: 1#FEET0#INCH
+    weight: 13.0lb
+}
+[MAGNETON] {
+    index: 81
+    hp: 50
+    attack: 60
+    defense: 95
+    speed: 70
+    special: 120
+    type: ELECTRIC
+    catch_rate: 60
+    base_exp: 161
+    exp_table: 0
+    tm: 6, 9, 10, 15, 20, 24, 25, 30, 31, 32, 33, 34, 39, 44, 45, 50, 55
+    moves_1: TACKLE, SONICBOOM, THUNDERSHOCK
+    moves_21: SONICBOOM
+    moves_25: THUNDERSHOCK
+    moves_29: SUPERSONIC
+    moves_38: THUNDER_WAVE
+    moves_46: SWIFT
+    moves_54: SCREECH
+    pokedex: Formed by several\
+        MAGNEMITEs linked\
+        together. They\
+        frequently appear\
+        when sunspots\
+        flare up
+    species: MAGNET
+    height: 3#FEET3#INCH
+    weight: 132.0lb
+}
+[FARFETCHD] {
+    index: 82
+    hp: 52
+    attack: 65
+    defense: 55
+    speed: 60
+    special: 58
+    type: NORMAL, FLYING
+    catch_rate: 45
+    base_exp: 94
+    exp_table: 0
+    tm: 2, 3, 4, 6, 8, 9, 10, 20, 31, 32, 33, 34, 39, 40, 44, 50, 51, 52
+    moves_1: PECK, SAND_ATTACK
+    moves_7: LEER
+    moves_15: FURY_ATTACK
+    moves_23: SWORDS_DANCE
+    moves_31: AGILITY
+    moves_39: SLASH
+    pokedex: The sprig of\
+        green onions it\
+        holds is its\
+        weapon. It is\
+        used much like a\
+        metal sword
+    species: WILD DUCK
+    height: 2#FEET7#INCH
+    weight: 33.0lb
+}
+[DODUO] {
+    index: 83
+    hp: 35
+    attack: 85
+    defense: 45
+    speed: 75
+    special: 35
+    type: NORMAL, FLYING
+    catch_rate: 190
+    base_exp: 96
+    exp_table: 0
+    tm: 4, 6, 8, 9, 10, 20, 31, 32, 33, 34, 40, 43, 44, 49, 50, 52
+    moves_1: PECK
+    moves_20: GROWL
+    moves_24: FURY_ATTACK
+    moves_30: DRILL_PECK
+    moves_36: RAGE
+    moves_40: TRI_ATTACK
+    moves_44: AGILITY
+    evolution: DODRIO, 31
+    pokedex: A bird that makes\
+        up for its poor\
+        flying with its\
+        fast foot speed.\
+        Leaves giant\
+        footprints
+    species: TWIN BIRD
+    height: 4#FEET7#INCH
+    weight: 86.0lb
+}
+[DODRIO] {
+    index: 84
+    hp: 60
+    attack: 110
+    defense: 70
+    speed: 100
+    special: 60
+    type: NORMAL, FLYING
+    catch_rate: 45
+    base_exp: 158
+    exp_table: 0
+    tm: 4, 6, 8, 9, 10, 15, 20, 31, 32, 33, 34, 40, 43, 44, 49, 50, 52
+    moves_1: PECK, GROWL, FURY_ATTACK
+    moves_20: GROWL
+    moves_24: FURY_ATTACK
+    moves_30: DRILL_PECK
+    moves_39: RAGE
+    moves_45: TRI_ATTACK
+    moves_51: AGILITY
+    pokedex: Uses its three\
+        brains to execute\
+        complex plans.\
+        While two heads\
+        sleep, one head\
+        stays awake
+    species: TRIPLEBIRD
+    height: 5#FEET11#INCH
+    weight: 188.0lb
+}
+[SEEL] {
+    index: 85
+    hp: 65
+    attack: 45
+    defense: 55
+    speed: 45
+    special: 70
+    type: WATER
+    catch_rate: 190
+    base_exp: 100
+    exp_table: 0
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 20, 31, 32, 34, 40, 44, 50, 53, 54
+    moves_1: HEADBUTT
+    moves_30: GROWL
+    moves_35: AURORA_BEAM
+    moves_40: REST
+    moves_45: TAKE_DOWN
+    moves_50: ICE_BEAM
+    evolution: DEWGONG, 34
+    pokedex: The protruding\
+        horn on its head\
+        is very hard.\
+        It is used for\
+        bashing through\
+        thick ice
+    species: SEA LION
+    height: 3#FEET7#INCH
+    weight: 198.0lb
+}
+[DEWGONG] {
+    index: 86
+    hp: 90
+    attack: 70
+    defense: 80
+    speed: 70
+    special: 95
+    type: WATER, ICE
+    catch_rate: 75
+    base_exp: 176
+    exp_table: 0
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 20, 31, 32, 34, 40, 44, 50, 53, 54
+    moves_1: HEADBUTT, GROWL, AURORA_BEAM
+    moves_30: GROWL
+    moves_35: AURORA_BEAM
+    moves_44: REST
+    moves_50: TAKE_DOWN
+    moves_56: ICE_BEAM
+    pokedex: Stores thermal\
+        energy in its\
+        body. Swims at a\
+        steady 8 knots\
+        even in intensely\
+        cold waters
+    species: SEA LION
+    height: 5#FEET7#INCH
+    weight: 265.0lb
+}
+[GRIMER] {
+    index: 87
+    hp: 80
+    attack: 80
+    defense: 50
+    speed: 25
+    special: 40
+    type: POISON
+    catch_rate: 190
+    base_exp: 90
+    exp_table: 0
+    tm: 6, 8, 20, 21, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+    moves_1: POUND, DISABLE
+    moves_30: POISON_GAS
+    moves_33: MINIMIZE
+    moves_37: SLUDGE
+    moves_42: HARDEN
+    moves_48: SCREECH
+    moves_55: ACID_ARMOR
+    evolution: MUK, 38
+    pokedex: Appears in filthy\
+        areas. Thrives by\
+        sucking up\
+        polluted sludge\
+        that is pumped\
+        out of factories
+    species: SLUDGE
+    height: 2#FEET11#INCH
+    weight: 66.0lb
+}
+[MUK] {
+    index: 88
+    hp: 105
+    attack: 105
+    defense: 75
+    speed: 50
+    special: 65
+    type: POISON
+    catch_rate: 75
+    base_exp: 157
+    exp_table: 0
+    tm: 6, 8, 15, 20, 21, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+    moves_1: POUND, DISABLE, POISON_GAS
+    moves_30: POISON_GAS
+    moves_33: MINIMIZE
+    moves_37: SLUDGE
+    moves_45: HARDEN
+    moves_53: SCREECH
+    moves_60: ACID_ARMOR
+    pokedex: Thickly covered\
+        with a filthy,\
+        vile sludge. It\
+        is so toxic, even\
+        its footprints\
+        contain poison
+    species: SLUDGE
+    height: 3#FEET11#INCH
+    weight: 66.0lb
+}
+[SHELLDER] {
+    index: 89
+    hp: 30
+    attack: 65
+    defense: 100
+    speed: 40
+    special: 45
+    type: WATER
+    catch_rate: 190
+    base_exp: 97
+    exp_table: 5
+    tm: 6, 9, 10, 11, 12, 13, 14, 20, 30, 31, 32, 33, 34, 36, 39, 44, 47, 49, 50, 53
+    moves_1: TACKLE, WITHDRAW
+    moves_18: SUPERSONIC
+    moves_23: CLAMP
+    moves_30: AURORA_BEAM
+    moves_39: LEER
+    moves_50: ICE_BEAM
+    pokedex: Its hard shell\
+        repels any kind\
+        of attack.\
+        It is vulnerable\
+        only when its\
+        shell is open
+    species: BIVALVE
+    height: 1#FEET0#INCH
+    weight: 9.0lb
+}
+[CLOYSTER] {
+    index: 90
+    hp: 50
+    attack: 95
+    defense: 180
+    speed: 70
+    special: 85
+    type: WATER, ICE
+    catch_rate: 60
+    base_exp: 203
+    exp_table: 5
+    tm: 6, 9, 10, 11, 12, 13, 14, 15, 20, 30, 31, 32, 33, 34, 36, 39, 44, 47, 49, 50, 53
+    moves_1: WITHDRAW, SUPERSONIC, CLAMP, AURORA_BEAM
+    moves_50: SPIKE_CANNON
+    pokedex: When attacked, it\
+        launches its\
+        horns in quick\
+        volleys. Its\
+        innards have\
+        never been seen
+    species: BIVALVE
+    height: 4#FEET11#INCH
+    weight: 292.0lb
+}
+[GASTLY] {
+    index: 91
+    hp: 30
+    attack: 35
+    defense: 30
+    speed: 80
+    special: 100
+    type: GHOST, POISON
+    catch_rate: 190
+    base_exp: 95
+    exp_table: 3
+    tm: 6, 20, 21, 24, 25, 29, 31, 32, 34, 36, 42, 44, 46, 47, 50
+    moves_1: LICK, CONFUSE_RAY, NIGHT_SHADE
+    moves_27: HYPNOSIS
+    moves_35: DREAM_EATER
+    evolution: HAUNTER, 25
+    pokedex: Almost invisible,\
+        this gaseous\
+        POKEMON cloaks\
+        the target and\
+        puts it to sleep\
+        without notice
+    species: GAS
+    height: 4#FEET3#INCH
+    weight: 0.2lb
+}
+[HAUNTER] {
+    index: 92
+    hp: 45
+    attack: 50
+    defense: 45
+    speed: 95
+    special: 115
+    type: GHOST, POISON
+    catch_rate: 90
+    base_exp: 126
+    exp_table: 3
+    tm: 6, 20, 21, 24, 25, 29, 31, 32, 34, 36, 42, 44, 46, 47, 50
+    moves_1: LICK, CONFUSE_RAY, NIGHT_SHADE
+    moves_29: HYPNOSIS
+    moves_38: DREAM_EATER
+    evolution: GENGAR, TRADE
+    pokedex: Because of its\
+        ability to slip\
+        through block\
+        walls, it is said\
+        to be from an-\
+        other dimension
+    species: GAS
+    height: 5#FEET3#INCH
+    weight: 0.2lb
+}
+[GENGAR] {
+    index: 93
+    hp: 60
+    attack: 65
+    defense: 60
+    speed: 110
+    special: 130
+    type: GHOST, POISON
+    catch_rate: 45
+    base_exp: 190
+    exp_table: 3
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 21, 24, 25, 29, 31, 32, 34, 35, 36, 40, 42, 44, 46, 47, 50, 54
+    moves_1: LICK, CONFUSE_RAY, NIGHT_SHADE
+    moves_29: HYPNOSIS
+    moves_38: DREAM_EATER
+    pokedex: Under a full moon,\
+        this POKEMON\
+        likes to mimic\
+        the shadows of\
+        people and laugh\
+        at their fright
+    species: SHADOW
+    height: 4#FEET11#INCH
+    weight: 89.0lb
+}
+[ONIX] {
+    index: 94
+    hp: 35
+    attack: 45
+    defense: 160
+    speed: 70
+    special: 30
+    type: ROCK, GROUND
+    catch_rate: 45
+    base_exp: 108
+    exp_table: 0
+    tm: 6, 8, 9, 10, 20, 26, 27, 28, 31, 32, 34, 36, 40, 44, 47, 48, 50, 54
+    moves_1: TACKLE, SCREECH
+    moves_15: BIND
+    moves_19: ROCK_THROW
+    moves_25: RAGE
+    moves_33: SLAM
+    moves_43: HARDEN
+    pokedex: As it grows, the\
+        stone portions of\
+        its body harden\
+        to become similar\
+        to a diamond, but\
+        colored black
+    species: ROCK SNAKE
+    height: 28#FEET10#INCH
+    weight: 463.0lb
+}
+[DROWZEE] {
+    index: 95
+    hp: 60
+    attack: 48
+    defense: 45
+    speed: 42
+    special: 90
+    type: PSYCHIC
+    catch_rate: 190
+    base_exp: 102
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40, 42, 44, 45, 46, 49, 50, 55
+    moves_1: POUND, HYPNOSIS
+    moves_12: DISABLE
+    moves_17: CONFUSION
+    moves_24: HEADBUTT
+    moves_29: POISON_GAS
+    moves_32: PSYCHIC_M
+    moves_37: MEDITATE
+    evolution: HYPNO, 26
+    pokedex: Puts enemies to\
+        sleep then eats\
+        their dreams.\
+        Occasionally gets\
+        sick from eating\
+        bad dreams
+    species: HYPNOSIS
+    height: 3#FEET3#INCH
+    weight: 71.0lb
+}
+[HYPNO] {
+    index: 96
+    hp: 85
+    attack: 73
+    defense: 70
+    speed: 67
+    special: 115
+    type: PSYCHIC
+    catch_rate: 75
+    base_exp: 165
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40, 42, 44, 45, 46, 49, 50, 55
+    moves_1: POUND, HYPNOSIS, DISABLE, CONFUSION
+    moves_12: DISABLE
+    moves_17: CONFUSION
+    moves_24: HEADBUTT
+    moves_33: POISON_GAS
+    moves_37: PSYCHIC_M
+    moves_43: MEDITATE
+    pokedex: When it locks eyes\
+        with an enemy, it\
+        will use a mix of\
+        PSI moves such as\
+        HYPNOSIS and\
+        CONFUSION
+    species: HYPNOSIS
+    height: 5#FEET3#INCH
+    weight: 167.0lb
+}
+[KRABBY] {
+    index: 97
+    hp: 30
+    attack: 105
+    defense: 90
+    speed: 50
+    special: 25
+    type: WATER
+    catch_rate: 225
+    base_exp: 115
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 44, 50, 51, 53, 54
+    moves_1: BUBBLE, LEER
+    moves_20: VICEGRIP
+    moves_25: GUILLOTINE
+    moves_30: STOMP
+    moves_35: CRABHAMMER
+    moves_40: HARDEN
+    evolution: KINGLER, 28
+    pokedex: Its pincers are\
+        not only powerful\
+        weapons, they are\
+        used for balance\
+        when walking\
+        sideways
+    species: RIVER CRAB
+    height: 1#FEET4#INCH
+    weight: 14.0lb
+}
+[KINGLER] {
+    index: 98
+    hp: 55
+    attack: 130
+    defense: 115
+    speed: 75
+    special: 50
+    type: WATER
+    catch_rate: 60
+    base_exp: 206
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 44, 50, 51, 53, 54
+    moves_1: BUBBLE, LEER, VICEGRIP
+    moves_20: VICEGRIP
+    moves_25: GUILLOTINE
+    moves_34: STOMP
+    moves_42: CRABHAMMER
+    moves_49: HARDEN
+    pokedex: The large pincer\
+        has 10000 hp of\
+        crushing power.\
+        However, its huge\
+        size makes it\
+        unwieldy to use
+    species: PINCER
+    height: 4#FEET3#INCH
+    weight: 132.0lb
+}
+[VOLTORB] {
+    index: 99
+    hp: 40
+    attack: 30
+    defense: 50
+    speed: 100
+    special: 55
+    type: ELECTRIC
+    catch_rate: 190
+    base_exp: 103
+    exp_table: 0
+    tm: 6, 9, 20, 24, 25, 30, 31, 32, 33, 34, 36, 39, 44, 45, 47, 50, 55
+    moves_1: TACKLE, SCREECH
+    moves_17: SONICBOOM
+    moves_22: SELFDESTRUCT
+    moves_29: LIGHT_SCREEN
+    moves_36: SWIFT
+    moves_43: EXPLOSION
+    evolution: ELECTRODE, 30
+    pokedex: Usually found in\
+        power plants.\
+        Easily mistaken\
+        for a POKE BALL,\
+        they have zapped\
+        many people
+    species: BALL
+    height: 1#FEET8#INCH
+    weight: 23.0lb
+}
+[ELECTRODE] {
+    index: 100
+    hp: 60
+    attack: 50
+    defense: 70
+    speed: 140
+    special: 80
+    type: ELECTRIC
+    catch_rate: 60
+    base_exp: 150
+    exp_table: 0
+    tm: 6, 9, 15, 20, 24, 25, 30, 31, 32, 33, 34, 36, 39, 40, 44, 45, 47, 50, 55
+    moves_1: TACKLE, SCREECH, SONICBOOM
+    moves_17: SONICBOOM
+    moves_22: SELFDESTRUCT
+    moves_29: LIGHT_SCREEN
+    moves_40: SWIFT
+    moves_50: EXPLOSION
+    pokedex: It stores electric\
+        energy under very\
+        high pressure.\
+        It often explodes\
+        with little or no\
+        provocation
+    species: BALL
+    height: 3#FEET11#INCH
+    weight: 147.0lb
+}
+[EXEGGCUTE] {
+    index: 101
+    hp: 60
+    attack: 40
+    defense: 80
+    speed: 40
+    special: 60
+    type: GRASS, PSYCHIC
+    catch_rate: 90
+    base_exp: 98
+    exp_table: 5
+    tm: 6, 9, 10, 20, 29, 30, 31, 32, 33, 34, 36, 37, 44, 46, 47, 50
+    moves_1: BARRAGE, HYPNOSIS
+    moves_25: REFLECT
+    moves_28: LEECH_SEED
+    moves_32: STUN_SPORE
+    moves_37: POISONPOWDER
+    moves_42: SOLARBEAM
+    moves_48: SLEEP_POWDER
+    pokedex: Often mistaken\
+        for eggs.\
+        When disturbed,\
+        they quickly\
+        gather and attack\
+        in swarms
+    species: EGG
+    height: 1#FEET4#INCH
+    weight: 6.0lb
+}
+[EXEGGUTOR] {
+    index: 102
+    hp: 95
+    attack: 95
+    defense: 85
+    speed: 55
+    special: 125
+    type: GRASS, PSYCHIC
+    catch_rate: 45
+    base_exp: 212
+    exp_table: 5
+    tm: 6, 9, 10, 15, 20, 21, 22, 29, 30, 31, 32, 33, 34, 36, 37, 44, 46, 47, 50, 54
+    moves_1: BARRAGE, HYPNOSIS
+    moves_28: STOMP
+    pokedex: Legend has it that\
+        on rare occasions,\
+        one of its heads\
+        will drop off and\
+        continue on as an\
+        EXEGGCUTE
+    species: COCONUT
+    height: 6#FEET7#INCH
+    weight: 265.0lb
+}
+[CUBONE] {
+    index: 103
+    hp: 50
+    attack: 50
+    defense: 95
+    speed: 35
+    special: 40
+    type: GROUND
+    catch_rate: 190
+    base_exp: 87
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 38, 40, 44, 50, 54
+    moves_1: BONE_CLUB, GROWL
+    moves_25: LEER
+    moves_31: FOCUS_ENERGY
+    moves_38: THRASH
+    moves_43: BONEMERANG
+    moves_46: RAGE
+    evolution: MAROWAK, 28
+    pokedex: Because it never\
+        removes its skull\
+        helmet, no one\
+        has ever seen\
+        this POKEMON's\
+        real face
+    species: LONELY
+    height: 1#FEET4#INCH
+    weight: 14.0lb
+}
+[MAROWAK] {
+    index: 104
+    hp: 60
+    attack: 80
+    defense: 110
+    speed: 45
+    special: 50
+    type: GROUND
+    catch_rate: 75
+    base_exp: 124
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 26, 27, 28, 31, 32, 34, 38, 40, 44, 50, 54
+    moves_1: BONE_CLUB, GROWL, LEER, FOCUS_ENERGY
+    moves_25: LEER
+    moves_33: FOCUS_ENERGY
+    moves_41: THRASH
+    moves_48: BONEMERANG
+    moves_55: RAGE
+    pokedex: The bone it holds\
+        is its key weapon.\
+        It throws the\
+        bone skillfully\
+        like a boomerang\
+        to KO targets
+    species: BONEKEEPER
+    height: 3#FEET3#INCH
+    weight: 99.0lb
+}
+[HITMONLEE] {
+    index: 105
+    hp: 50
+    attack: 120
+    defense: 53
+    speed: 87
+    special: 35
+    type: FIGHTING
+    catch_rate: 45
+    base_exp: 139
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 31, 32, 34, 35, 39, 40, 44, 50, 54
+    moves_1: DOUBLE_KICK, MEDITATE
+    moves_33: ROLLING_KICK
+    moves_38: JUMP_KICK
+    moves_43: FOCUS_ENERGY
+    moves_48: HI_JUMP_KICK
+    moves_53: MEGA_KICK
+    pokedex: When in a hurry,\
+        its legs lengthen\
+        progressively.\
+        It runs smoothly\
+        with extra long,\
+        loping strides
+    species: KICKING
+    height: 4#FEET11#INCH
+    weight: 110.0lb
+}
+[HITMONCHAN] {
+    index: 106
+    hp: 50
+    attack: 105
+    defense: 79
+    speed: 76
+    special: 35
+    type: FIGHTING
+    catch_rate: 45
+    base_exp: 140
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 17, 18, 19, 20, 31, 32, 34, 35, 39, 40, 44, 50, 54
+    moves_1: COMET_PUNCH, AGILITY
+    moves_33: FIRE_PUNCH
+    moves_38: ICE_PUNCH
+    moves_43: THUNDERPUNCH
+    moves_48: MEGA_PUNCH
+    moves_53: COUNTER
+    pokedex: While apparently\
+        doing nothing, it\
+        fires punches in\
+        lightning fast\
+        volleys that are\
+        impossible to see
+    species: PUNCHING
+    height: 4#FEET7#INCH
+    weight: 111.0lb
+}
+[LICKITUNG] {
+    index: 107
+    hp: 90
+    attack: 55
+    defense: 75
+    speed: 30
+    special: 60
+    type: NORMAL
+    catch_rate: 45
+    base_exp: 127
+    exp_table: 0
+    tm: 1, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 24, 25, 26, 27, 31, 32, 34, 38, 40, 44, 50, 51, 53, 54
+    moves_1: WRAP, SUPERSONIC
+    moves_7: STOMP
+    moves_15: DISABLE
+    moves_23: DEFENSE_CURL
+    moves_31: SLAM
+    moves_39: SCREECH
+    pokedex: Its tongue can be\
+        extended like a\
+        chameleon's. It\
+        leaves a tingling\
+        sensation when it\
+        licks enemies
+    species: LICKING
+    height: 3#FEET11#INCH
+    weight: 144.0lb
+}
+[KOFFING] {
+    index: 108
+    hp: 40
+    attack: 65
+    defense: 95
+    speed: 35
+    special: 60
+    type: POISON
+    catch_rate: 190
+    base_exp: 114
+    exp_table: 0
+    tm: 6, 20, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+    moves_1: TACKLE, SMOG
+    moves_32: SLUDGE
+    moves_37: SMOKESCREEN
+    moves_40: SELFDESTRUCT
+    moves_45: HAZE
+    moves_48: EXPLOSION
+    evolution: WEEZING, 35
+    pokedex: Because it stores\
+        several kinds of\
+        toxic gases in\
+        its body, it is\
+        prone to exploding\
+        without warning
+    species: POISON GAS
+    height: 2#FEET0#INCH
+    weight: 2.0lb
+}
+[WEEZING] {
+    index: 109
+    hp: 65
+    attack: 90
+    defense: 120
+    speed: 60
+    special: 85
+    type: POISON
+    catch_rate: 60
+    base_exp: 173
+    exp_table: 0
+    tm: 6, 15, 20, 24, 25, 31, 32, 34, 36, 38, 44, 47, 50
+    moves_1: TACKLE, SMOG, SLUDGE
+    moves_32: SLUDGE
+    moves_39: SMOKESCREEN
+    moves_43: SELFDESTRUCT
+    moves_49: HAZE
+    moves_53: EXPLOSION
+    pokedex: Where two kinds\
+        of poison gases\
+        meet, 2 KOFFINGs\
+        can fuse into a\
+        WEEZING over many\
+        years
+    species: POISON GAS
+    height: 3#FEET11#INCH
+    weight: 21.0lb
+}
+[RHYHORN] {
+    index: 110
+    hp: 80
+    attack: 85
+    defense: 95
+    speed: 25
+    special: 30
+    type: GROUND, ROCK
+    catch_rate: 120
+    base_exp: 135
+    exp_table: 5
+    tm: 6, 7, 8, 9, 10, 20, 24, 25, 26, 27, 28, 31, 32, 34, 38, 40, 44, 48, 50, 54
+    moves_1: HORN_ATTACK
+    moves_30: STOMP
+    moves_35: TAIL_WHIP
+    moves_40: FURY_ATTACK
+    moves_45: HORN_DRILL
+    moves_50: LEER
+    moves_55: TAKE_DOWN
+    evolution: RHYDON, 42
+    pokedex: Its massive bones\
+        are 1000 times\
+        harder than human\
+        bones. It can\
+        easily knock a\
+        trailer flying
+    species: SPIKES
+    height: 3#FEET3#INCH
+    weight: 254.0lb
+}
+[RHYDON] {
+    index: 111
+    hp: 105
+    attack: 130
+    defense: 120
+    speed: 40
+    special: 45
+    type: GROUND, ROCK
+    catch_rate: 60
+    base_exp: 204
+    exp_table: 5
+    tm: 1, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 24, 25, 26, 27, 28, 31, 32, 34, 38, 40, 44, 48, 50, 53, 54
+    moves_1: HORN_ATTACK, STOMP, TAIL_WHIP, FURY_ATTACK
+    moves_30: STOMP
+    moves_35: TAIL_WHIP
+    moves_40: FURY_ATTACK
+    moves_48: HORN_DRILL
+    moves_55: LEER
+    moves_64: TAKE_DOWN
+    pokedex: Protected by an\
+        armor-like hide,\
+        it is capable of\
+        living in molten\
+        lava of 3,600\
+        degrees
+    species: DRILL
+    height: 6#FEET3#INCH
+    weight: 265.0lb
+}
+[CHANSEY] {
+    index: 112
+    hp: 250
+    attack: 5
+    defense: 5
+    speed: 50
+    special: 105
+    type: NORMAL
+    catch_rate: 30
+    base_exp: 255
+    exp_table: 4
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40, 41, 44, 45, 46, 49, 50, 54, 55
+    moves_1: POUND, DOUBLESLAP
+    moves_24: SING
+    moves_30: GROWL
+    moves_38: MINIMIZE
+    moves_44: DEFENSE_CURL
+    moves_48: LIGHT_SCREEN
+    moves_54: DOUBLE_EDGE
+    pokedex: A rare and elusive\
+        POKEMON that is\
+        said to bring\
+        happiness to those\
+        who manage to get\
+        it
+    species: EGG
+    height: 3#FEET7#INCH
+    weight: 76.0lb
+}
+[TANGELA] {
+    index: 113
+    hp: 65
+    attack: 55
+    defense: 115
+    speed: 60
+    special: 100
+    type: GRASS
+    catch_rate: 45
+    base_exp: 166
+    exp_table: 0
+    tm: 3, 6, 8, 9, 10, 15, 20, 21, 22, 31, 32, 34, 40, 44, 50, 51
+    moves_1: CONSTRICT, BIND
+    moves_29: ABSORB
+    moves_32: POISONPOWDER
+    moves_36: STUN_SPORE
+    moves_39: SLEEP_POWDER
+    moves_45: SLAM
+    moves_49: GROWTH
+    pokedex: The whole body is\
+        swathed with wide\
+        vines that are\
+        similar to sea-\
+        weed. Its vines\
+        shake as it walks
+    species: VINE
+    height: 3#FEET3#INCH
+    weight: 77.0lb
+}
+[KANGASKHAN] {
+    index: 114
+    hp: 105
+    attack: 95
+    defense: 80
+    speed: 90
+    special: 40
+    type: NORMAL
+    catch_rate: 45
+    base_exp: 175
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 24, 25, 26, 27, 31, 32, 34, 38, 40, 44, 48, 50, 53, 54
+    moves_1: COMET_PUNCH, RAGE
+    moves_26: BITE
+    moves_31: TAIL_WHIP
+    moves_36: MEGA_PUNCH
+    moves_41: LEER
+    moves_46: DIZZY_PUNCH
+    pokedex: The infant rarely\
+        ventures out of\
+        its mother's\
+        protective pouch\
+        until it is 3\
+        years old
+    species: PARENT
+    height: 7#FEET3#INCH
+    weight: 176.0lb
+}
+[HORSEA] {
+    index: 115
+    hp: 30
+    attack: 40
+    defense: 70
+    speed: 60
+    special: 70
+    type: WATER
+    catch_rate: 225
+    base_exp: 83
+    exp_table: 0
+    tm: 6, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 39, 40, 44, 50, 53
+    moves_1: BUBBLE
+    moves_19: SMOKESCREEN
+    moves_24: LEER
+    moves_30: WATER_GUN
+    moves_37: AGILITY
+    moves_45: HYDRO_PUMP
+    evolution: SEADRA, 32
+    pokedex: Known to shoot\
+        down flying bugs\
+        with precision\
+        blasts of ink\
+        from the surface\
+        of the water
+    species: DRAGON
+    height: 1#FEET4#INCH
+    weight: 18.0lb
+}
+[SEADRA] {
+    index: 116
+    hp: 55
+    attack: 65
+    defense: 95
+    speed: 85
+    special: 95
+    type: WATER
+    catch_rate: 75
+    base_exp: 155
+    exp_table: 0
+    tm: 6, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 39, 40, 44, 50, 53
+    moves_1: BUBBLE, SMOKESCREEN
+    moves_19: SMOKESCREEN
+    moves_24: LEER
+    moves_30: WATER_GUN
+    moves_41: AGILITY
+    moves_52: HYDRO_PUMP
+    pokedex: Capable of swim-\
+        ming backwards by\
+        rapidly flapping\
+        its wing-like\
+        pectoral fins and\
+        stout tail
+    species: DRAGON
+    height: 3#FEET11#INCH
+    weight: 55.0lb
+}
+[GOLDEEN] {
+    index: 117
+    hp: 45
+    attack: 67
+    defense: 60
+    speed: 63
+    special: 50
+    type: WATER
+    catch_rate: 225
+    base_exp: 111
+    exp_table: 0
+    tm: 6, 7, 9, 10, 11, 12, 13, 14, 20, 31, 32, 34, 39, 40, 44, 50, 53
+    moves_1: PECK, TAIL_WHIP
+    moves_19: SUPERSONIC
+    moves_24: HORN_ATTACK
+    moves_30: FURY_ATTACK
+    moves_37: WATERFALL
+    moves_45: HORN_DRILL
+    moves_54: AGILITY
+    evolution: SEAKING, 33
+    pokedex: Its tail fin\
+        billows like an\
+        elegant ballroom\
+        dress, giving it\
+        the nickname of\
+        the Water Queen
+    species: GOLDFISH
+    height: 2#FEET0#INCH
+    weight: 33.0lb
+}
+[SEAKING] {
+    index: 118
+    hp: 80
+    attack: 92
+    defense: 65
+    speed: 68
+    special: 80
+    type: WATER
+    catch_rate: 60
+    base_exp: 170
+    exp_table: 0
+    tm: 6, 7, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 34, 39, 40, 44, 50, 53
+    moves_1: PECK, TAIL_WHIP, SUPERSONIC
+    moves_19: SUPERSONIC
+    moves_24: HORN_ATTACK
+    moves_30: FURY_ATTACK
+    moves_39: WATERFALL
+    moves_48: HORN_DRILL
+    moves_54: AGILITY
+    pokedex: In the autumn\
+        spawning season,\
+        they can be seen\
+        swimming power-\
+        fully up rivers\
+        and creeks
+    species: GOLDFISH
+    height: 4#FEET3#INCH
+    weight: 86.0lb
+}
+[STARYU] {
+    index: 119
+    hp: 30
+    attack: 45
+    defense: 55
+    speed: 85
+    special: 70
+    type: WATER
+    catch_rate: 225
+    base_exp: 106
+    exp_table: 5
+    tm: 6, 9, 10, 11, 12, 13, 14, 20, 24, 25, 29, 30, 31, 32, 33, 34, 39, 40, 44, 45, 46, 49, 50, 53, 55
+    moves_1: TACKLE
+    moves_17: WATER_GUN
+    moves_22: HARDEN
+    moves_27: RECOVER
+    moves_32: SWIFT
+    moves_37: MINIMIZE
+    moves_42: LIGHT_SCREEN
+    moves_47: HYDRO_PUMP
+    pokedex: An enigmatic\
+        POKEMON that can\
+        effortlessly\
+        regenerate any\
+        appendage it\
+        loses in battle
+    species: STARSHAPE
+    height: 2#FEET7#INCH
+    weight: 76.0lb
+}
+[STARMIE] {
+    index: 120
+    hp: 60
+    attack: 75
+    defense: 85
+    speed: 115
+    special: 100
+    type: WATER, PSYCHIC
+    catch_rate: 60
+    base_exp: 207
+    exp_table: 5
+    tm: 6, 9, 10, 11, 12, 13, 14, 15, 20, 24, 25, 29, 30, 31, 32, 33, 34, 39, 40, 44, 45, 46, 49, 50, 53, 55
+    moves_1: TACKLE, WATER_GUN, HARDEN
+    pokedex: Its central core\
+        glows with the\
+        seven colors of\
+        the rainbow. Some\
+        people value the\
+        core as a gem
+    species: MYSTERIOUS
+    height: 3#FEET7#INCH
+    weight: 176.0lb
+}
+[MR_MIME] {
+    index: 121
+    hp: 40
+    attack: 45
+    defense: 65
+    speed: 90
+    special: 100
+    type: PSYCHIC
+    catch_rate: 45
+    base_exp: 136
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 35, 40, 44, 45, 46, 50, 55
+    moves_1: CONFUSION, BARRIER
+    moves_15: CONFUSION
+    moves_23: LIGHT_SCREEN
+    moves_31: DOUBLESLAP
+    moves_39: MEDITATE
+    moves_47: SUBSTITUTE
+    pokedex: If interrupted\
+        while it is\
+        miming, it will\
+        slap around the\
+        offender with its\
+        broad hands
+    species: BARRIER
+    height: 4#FEET3#INCH
+    weight: 120.0lb
+}
+[SCYTHER] {
+    index: 122
+    hp: 70
+    attack: 110
+    defense: 80
+    speed: 105
+    special: 55
+    type: BUG, FLYING
+    catch_rate: 45
+    base_exp: 187
+    exp_table: 0
+    tm: 3, 6, 9, 10, 15, 20, 31, 32, 34, 39, 40, 44, 50, 51
+    moves_1: QUICK_ATTACK
+    moves_17: LEER
+    moves_20: FOCUS_ENERGY
+    moves_24: DOUBLE_TEAM
+    moves_29: SLASH
+    moves_35: SWORDS_DANCE
+    moves_42: AGILITY
+    pokedex: With ninja-like\
+        agility and speed,\
+        it can create the\
+        illusion that\
+        there is more\
+        than one
+    species: MANTIS
+    height: 4#FEET11#INCH
+    weight: 123.0lb
+}
+[JYNX] {
+    index: 123
+    hp: 65
+    attack: 50
+    defense: 35
+    speed: 95
+    special: 95
+    type: ICE, PSYCHIC
+    catch_rate: 45
+    base_exp: 137
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 29, 30, 31, 32, 33, 34, 35, 40, 44, 46, 50
+    moves_1: POUND, LOVELY_KISS
+    moves_18: LICK
+    moves_23: DOUBLESLAP
+    moves_31: ICE_PUNCH
+    moves_39: BODY_SLAM
+    moves_47: THRASH
+    moves_58: BLIZZARD
+    pokedex: It seductively\
+        wiggles its hips\
+        as it walks. It\
+        can cause people\
+        to dance in\
+        unison with it
+    species: HUMANSHAPE
+    height: 4#FEET7#INCH
+    weight: 90.0lb
+}
+[ELECTABUZZ] {
+    index: 124
+    hp: 65
+    attack: 83
+    defense: 57
+    speed: 105
+    special: 85
+    type: ELECTRIC
+    catch_rate: 45
+    base_exp: 156
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 24, 25, 29, 30, 31, 32, 33, 34, 35, 39, 40, 44, 45, 46, 50, 54, 55
+    moves_1: QUICK_ATTACK, LEER
+    moves_34: THUNDERSHOCK
+    moves_37: SCREECH
+    moves_42: THUNDERPUNCH
+    moves_49: LIGHT_SCREEN
+    moves_54: THUNDER
+    pokedex: Normally found\
+        near power plants,\
+        they can wander\
+        away and cause\
+        major blackouts\
+        in cities
+    species: ELECTRIC
+    height: 3#FEET7#INCH
+    weight: 66.0lb
+}
+[MAGMAR] {
+    index: 125
+    hp: 65
+    attack: 95
+    defense: 57
+    speed: 93
+    special: 85
+    type: FIRE
+    catch_rate: 45
+    base_exp: 167
+    exp_table: 0
+    tm: 1, 5, 6, 8, 9, 10, 15, 17, 18, 19, 20, 29, 30, 31, 32, 34, 35, 38, 40, 44, 46, 50, 54
+    moves_1: EMBER
+    moves_36: LEER
+    moves_39: CONFUSE_RAY
+    moves_43: FIRE_PUNCH
+    moves_48: SMOKESCREEN
+    moves_52: SMOG
+    moves_55: FLAMETHROWER
+    pokedex: Its body always\
+        burns with an\
+        orange glow that\
+        enables it to\
+        hide perfectly\
+        among flames
+    species: SPITFIRE
+    height: 4#FEET3#INCH
+    weight: 98.0lb
+}
+[PINSIR] {
+    index: 126
+    hp: 65
+    attack: 125
+    defense: 100
+    speed: 85
+    special: 55
+    type: BUG
+    catch_rate: 45
+    base_exp: 200
+    exp_table: 5
+    tm: 3, 6, 8, 9, 10, 15, 17, 19, 20, 31, 32, 34, 44, 50, 51, 54
+    moves_1: VICEGRIP
+    moves_25: SEISMIC_TOSS
+    moves_30: GUILLOTINE
+    moves_36: FOCUS_ENERGY
+    moves_43: HARDEN
+    moves_49: SLASH
+    moves_54: SWORDS_DANCE
+    pokedex: If it fails to\
+        crush the victim\
+        in its pincers,\
+        it will swing it\
+        around and toss\
+        it hard
+    species: STAGBEETLE
+    height: 4#FEET11#INCH
+    weight: 121.0lb
+}
+[TAUROS] {
+    index: 127
+    hp: 75
+    attack: 100
+    defense: 95
+    speed: 110
+    special: 70
+    type: NORMAL
+    catch_rate: 45
+    base_exp: 211
+    exp_table: 5
+    tm: 6, 7, 8, 9, 10, 13, 14, 15, 20, 24, 25, 26, 27, 31, 32, 34, 38, 40, 44, 50, 54
+    moves_1: TACKLE
+    moves_21: STOMP
+    moves_28: TAIL_WHIP
+    moves_35: LEER
+    moves_44: RAGE
+    moves_51: TAKE_DOWN
+    pokedex: When it targets\
+        an enemy, it\
+        charges furiously\
+        while whipping its\
+        body with its\
+        long tails
+    species: WILD BULL
+    height: 4#FEET7#INCH
+    weight: 195.0lb
+}
+[MAGIKARP] {
+    index: 128
+    hp: 20
+    attack: 10
+    defense: 55
+    speed: 80
+    special: 20
+    type: WATER
+    catch_rate: 255
+    base_exp: 20
+    exp_table: 5
+    tm: 
+    moves_1: SPLASH
+    moves_15: TACKLE
+    evolution: GYARADOS, 20
+    pokedex: In the distant\
+        past, it was\
+        somewhat stronger\
+        than the horribly\
+        weak descendants\
+        that exist today
+    species: FISH
+    height: 2#FEET11#INCH
+    weight: 22.0lb
+}
+[GYARADOS] {
+    index: 129
+    hp: 95
+    attack: 125
+    defense: 79
+    speed: 81
+    special: 100
+    type: WATER, FLYING
+    catch_rate: 45
+    base_exp: 214
+    exp_table: 5
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 23, 24, 25, 31, 32, 33, 34, 38, 40, 44, 50, 53, 54
+    moves_1: BITE, DRAGON_RAGE, LEER, HYDRO_PUMP
+    moves_20: BITE
+    moves_25: DRAGON_RAGE
+    moves_32: LEER
+    moves_41: HYDRO_PUMP
+    moves_52: HYPER_BEAM
+    pokedex: Rarely seen in\
+        the wild. Huge\
+        and vicious, it\
+        is capable of\
+        destroying entire\
+        cities in a rage
+    species: ATROCIOUS
+    height: 21#FEET4#INCH
+    weight: 518.0lb
+}
+[LAPRAS] {
+    index: 130
+    hp: 130
+    attack: 85
+    defense: 80
+    speed: 60
+    special: 95
+    type: WATER, ICE
+    catch_rate: 45
+    base_exp: 219
+    exp_table: 5
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 22, 23, 24, 25, 29, 31, 32, 33, 34, 40, 44, 46, 50, 53, 54
+    moves_1: WATER_GUN, GROWL
+    moves_16: SING
+    moves_20: MIST
+    moves_25: BODY_SLAM
+    moves_31: CONFUSE_RAY
+    moves_38: ICE_BEAM
+    moves_46: HYDRO_PUMP
+    pokedex: A POKEMON that\
+        has been over-\
+        hunted almost to\
+        extinction. It\
+        can ferry people\
+        across the water
+    species: TRANSPORT
+    height: 8#FEET2#INCH
+    weight: 485.0lb
+}
+[DITTO] {
+    index: 131
+    hp: 48
+    attack: 48
+    defense: 48
+    speed: 48
+    special: 48
+    type: NORMAL
+    catch_rate: 35
+    base_exp: 61
+    exp_table: 0
+    tm: 
+    moves_1: TRANSFORM
+    pokedex: Capable of copying\
+        an enemy's genetic\
+        code to instantly\
+        transform itself\
+        into a duplicate\
+        of the enemy
+    species: TRANSFORM
+    height: 1#FEET0#INCH
+    weight: 9.0lb
+}
+[EEVEE] {
+    index: 132
+    hp: 55
+    attack: 55
+    defense: 50
+    speed: 55
+    special: 65
+    type: NORMAL
+    catch_rate: 45
+    base_exp: 92
+    exp_table: 0
+    tm: 6, 8, 9, 10, 20, 31, 32, 33, 34, 39, 40, 44, 50
+    moves_1: TACKLE, SAND_ATTACK
+    moves_27: QUICK_ATTACK
+    moves_31: TAIL_WHIP
+    moves_37: BITE
+    moves_45: TAKE_DOWN
+    pokedex: Its genetic code\
+        is irregular.\
+        It may mutate if\
+        it is exposed to\
+        radiation from\
+        element STONEs
+    species: EVOLUTION
+    height: 1#FEET0#INCH
+    weight: 14.0lb
+}
+[VAPOREON] {
+    index: 133
+    hp: 130
+    attack: 65
+    defense: 60
+    speed: 65
+    special: 110
+    type: WATER
+    catch_rate: 45
+    base_exp: 196
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 33, 34, 39, 40, 44, 50, 53
+    moves_1: TACKLE, SAND_ATTACK, QUICK_ATTACK, WATER_GUN
+    moves_27: QUICK_ATTACK
+    moves_31: WATER_GUN
+    moves_37: TAIL_WHIP
+    moves_40: BITE
+    moves_42: ACID_ARMOR
+    moves_44: HAZE
+    moves_48: MIST
+    moves_54: HYDRO_PUMP
+    pokedex: Lives close to\
+        water. Its long\
+        tail is ridged\
+        with a fin which\
+        is often mistaken\
+        for a mermaid's
+    species: BUBBLE JET
+    height: 3#FEET3#INCH
+    weight: 64.0lb
+}
+[JOLTEON] {
+    index: 134
+    hp: 65
+    attack: 65
+    defense: 60
+    speed: 130
+    special: 110
+    type: ELECTRIC
+    catch_rate: 45
+    base_exp: 197
+    exp_table: 0
+    tm: 6, 8, 9, 10, 15, 20, 24, 25, 31, 32, 33, 34, 39, 40, 44, 45, 50, 55
+    moves_1: TACKLE, SAND_ATTACK, QUICK_ATTACK, THUNDERSHOCK
+    moves_27: QUICK_ATTACK
+    moves_31: THUNDERSHOCK
+    moves_37: TAIL_WHIP
+    moves_40: THUNDER_WAVE
+    moves_42: DOUBLE_KICK
+    moves_44: AGILITY
+    moves_48: PIN_MISSILE
+    moves_54: THUNDER
+    pokedex: It accumulates\
+        negative ions in\
+        the atmosphere to\
+        blast out 10000-\
+        volt lightning\
+        bolts
+    species: LIGHTNING
+    height: 2#FEET7#INCH
+    weight: 54.0lb
+}
+[FLAREON] {
+    index: 135
+    hp: 65
+    attack: 130
+    defense: 60
+    speed: 65
+    special: 110
+    type: FIRE
+    catch_rate: 45
+    base_exp: 198
+    exp_table: 0
+    tm: 6, 8, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 40, 44, 50
+    moves_1: TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER
+    moves_27: QUICK_ATTACK
+    moves_31: EMBER
+    moves_37: TAIL_WHIP
+    moves_40: BITE
+    moves_42: LEER
+    moves_44: FIRE_SPIN
+    moves_48: RAGE
+    moves_54: FLAMETHROWER
+    pokedex: When storing\
+        thermal energy in\
+        its body, its\
+        temperature could\
+        soar to over 1600\
+        degrees
+    species: FLAME
+    height: 2#FEET11#INCH
+    weight: 55.0lb
+}
+[PORYGON] {
+    index: 136
+    hp: 65
+    attack: 60
+    defense: 70
+    speed: 40
+    special: 75
+    type: NORMAL
+    catch_rate: 45
+    base_exp: 130
+    exp_table: 0
+    tm: 6, 9, 10, 13, 14, 15, 20, 24, 25, 29, 30, 31, 32, 33, 34, 39, 40, 44, 45, 46, 49, 50, 55
+    moves_1: TACKLE, SHARPEN, CONVERSION
+    moves_23: PSYBEAM
+    moves_28: RECOVER
+    moves_35: AGILITY
+    moves_42: TRI_ATTACK
+    pokedex: A POKEMON that\
+        consists entirely\
+        of programming\
+        code. Capable of\
+        moving freely in\
+        cyberspace
+    species: VIRTUAL
+    height: 2#FEET7#INCH
+    weight: 80.0lb
+}
+[OMANYTE] {
+    index: 137
+    hp: 35
+    attack: 40
+    defense: 100
+    speed: 35
+    special: 90
+    type: ROCK, WATER
+    catch_rate: 45
+    base_exp: 120
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 20, 31, 32, 33, 34, 44, 50, 53
+    moves_1: WATER_GUN, WITHDRAW
+    moves_34: HORN_ATTACK
+    moves_39: LEER
+    moves_46: SPIKE_CANNON
+    moves_53: HYDRO_PUMP
+    evolution: OMASTAR, 40
+    pokedex: Although long\
+        extinct, in rare\
+        cases, it can be\
+        genetically\
+        resurrected from\
+        fossils
+    species: SPIRAL
+    height: 1#FEET4#INCH
+    weight: 17.0lb
+}
+[OMASTAR] {
+    index: 138
+    hp: 70
+    attack: 60
+    defense: 125
+    speed: 55
+    special: 115
+    type: ROCK, WATER
+    catch_rate: 45
+    base_exp: 199
+    exp_table: 0
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 31, 32, 33, 34, 40, 44, 50, 53
+    moves_1: WATER_GUN, WITHDRAW, HORN_ATTACK
+    moves_34: HORN_ATTACK
+    moves_39: LEER
+    moves_44: SPIKE_CANNON
+    moves_49: HYDRO_PUMP
+    pokedex: A prehistoric\
+        POKEMON that died\
+        out when its\
+        heavy shell made\
+        it impossible to\
+        catch prey
+    species: SPIRAL
+    height: 3#FEET3#INCH
+    weight: 77.0lb
+}
+[KABUTO] {
+    index: 139
+    hp: 30
+    attack: 80
+    defense: 90
+    speed: 55
+    special: 45
+    type: ROCK, WATER
+    catch_rate: 45
+    base_exp: 119
+    exp_table: 0
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 20, 31, 32, 33, 34, 44, 50, 53
+    moves_1: SCRATCH, HARDEN
+    moves_34: ABSORB
+    moves_39: SLASH
+    moves_44: LEER
+    moves_49: HYDRO_PUMP
+    evolution: KABUTOPS, 40
+    pokedex: A POKEMON that\
+        was resurrected\
+        from a fossil\
+        found in what was\
+        once the ocean\
+        floor eons ago
+    species: SHELLFISH
+    height: 1#FEET8#INCH
+    weight: 25.0lb
+}
+[KABUTOPS] {
+    index: 140
+    hp: 60
+    attack: 115
+    defense: 105
+    speed: 80
+    special: 70
+    type: ROCK, WATER
+    catch_rate: 45
+    base_exp: 201
+    exp_table: 0
+    tm: 2, 3, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 31, 32, 33, 34, 40, 44, 50, 53
+    moves_1: SCRATCH, HARDEN, ABSORB
+    moves_34: ABSORB
+    moves_39: SLASH
+    moves_46: LEER
+    moves_53: HYDRO_PUMP
+    pokedex: Its sleek shape is\
+        perfect for swim-\
+        ming. It slashes\
+        prey with its\
+        claws and drains\
+        the body fluids
+    species: SHELLFISH
+    height: 4#FEET3#INCH
+    weight: 89.0lb
+}
+[AERODACTYL] {
+    index: 141
+    hp: 80
+    attack: 105
+    defense: 65
+    speed: 130
+    special: 60
+    type: ROCK, FLYING
+    catch_rate: 45
+    base_exp: 202
+    exp_table: 5
+    tm: 2, 4, 6, 9, 10, 15, 20, 23, 31, 32, 33, 34, 38, 39, 43, 44, 50, 52
+    moves_1: WING_ATTACK, AGILITY
+    moves_33: SUPERSONIC
+    moves_38: BITE
+    moves_45: TAKE_DOWN
+    moves_54: HYPER_BEAM
+    pokedex: A ferocious, pre-\
+        historic POKEMON\
+        that goes for the\
+        enemy's throat\
+        with its serrated\
+        saw-like fangs
+    species: FOSSIL
+    height: 5#FEET11#INCH
+    weight: 130.0lb
+}
+[SNORLAX] {
+    index: 142
+    hp: 160
+    attack: 110
+    defense: 65
+    speed: 30
+    special: 65
+    type: NORMAL
+    catch_rate: 25
+    base_exp: 154
+    exp_table: 5
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 38, 40, 44, 46, 48, 50, 53, 54
+    moves_1: HEADBUTT, AMNESIA, REST
+    moves_35: BODY_SLAM
+    moves_41: HARDEN
+    moves_48: DOUBLE_EDGE
+    moves_56: HYPER_BEAM
+    pokedex: Very lazy. Just\
+        eats and sleeps.\
+        As its rotund\
+        bulk builds, it\
+        becomes steadily\
+        more slothful
+    species: SLEEPING
+    height: 6#FEET11#INCH
+    weight: 1014.0lb
+}
+[ARTICUNO] {
+    index: 143
+    hp: 90
+    attack: 85
+    defense: 100
+    speed: 85
+    special: 125
+    type: ICE, FLYING
+    catch_rate: 3
+    base_exp: 215
+    exp_table: 5
+    tm: 2, 4, 6, 9, 10, 11, 12, 13, 14, 15, 20, 31, 32, 33, 34, 39, 43, 44, 50, 52
+    moves_1: PECK, ICE_BEAM
+    moves_51: BLIZZARD
+    moves_55: AGILITY
+    moves_60: MIST
+    pokedex: A legendary bird\
+        POKEMON that is\
+        said to appear to\
+        doomed people who\
+        are lost in icy\
+        mountains
+    species: FREEZE
+    height: 5#FEET7#INCH
+    weight: 122.0lb
+}
+[ZAPDOS] {
+    index: 144
+    hp: 90
+    attack: 90
+    defense: 85
+    speed: 100
+    special: 125
+    type: ELECTRIC, FLYING
+    catch_rate: 3
+    base_exp: 216
+    exp_table: 5
+    tm: 2, 4, 6, 9, 10, 15, 20, 24, 25, 31, 32, 33, 34, 39, 43, 44, 45, 50, 52, 55
+    moves_1: THUNDERSHOCK, DRILL_PECK
+    moves_51: THUNDER
+    moves_55: AGILITY
+    moves_60: LIGHT_SCREEN
+    pokedex: A legendary bird\
+        POKEMON that is\
+        said to appear\
+        from clouds while\
+        dropping enormous\
+        lightning bolts
+    species: ELECTRIC
+    height: 5#FEET3#INCH
+    weight: 116.0lb
+}
+[MOLTRES] {
+    index: 145
+    hp: 90
+    attack: 100
+    defense: 90
+    speed: 90
+    special: 125
+    type: FIRE, FLYING
+    catch_rate: 3
+    base_exp: 217
+    exp_table: 5
+    tm: 2, 4, 6, 9, 10, 15, 20, 31, 32, 33, 34, 38, 39, 43, 44, 50, 52
+    moves_1: PECK, FIRE_SPIN
+    moves_51: LEER
+    moves_55: AGILITY
+    moves_60: SKY_ATTACK
+    pokedex: Known as the\
+        legendary bird of\
+        fire. Every flap\
+        of its wings\
+        creates a dazzling\
+        flash of flames
+    species: FLAME
+    height: 6#FEET7#INCH
+    weight: 132.0lb
+}
+[DRATINI] {
+    index: 146
+    hp: 41
+    attack: 64
+    defense: 45
+    speed: 50
+    special: 50
+    type: DRAGON
+    catch_rate: 45
+    base_exp: 67
+    exp_table: 5
+    tm: 6, 8, 9, 10, 11, 12, 13, 14, 20, 23, 24, 25, 31, 32, 33, 34, 38, 39, 40, 44, 45, 50, 53
+    moves_1: WRAP, LEER
+    moves_10: THUNDER_WAVE
+    moves_20: AGILITY
+    moves_30: SLAM
+    moves_40: DRAGON_RAGE
+    moves_50: HYPER_BEAM
+    evolution: DRAGONAIR, 30
+    pokedex: Long considered a\
+        mythical POKEMON\
+        until recently\
+        when a small\
+        colony was found\
+        living underwater
+    species: DRAGON
+    height: 5#FEET11#INCH
+    weight: 7.0lb
+}
+[DRAGONAIR] {
+    index: 147
+    hp: 61
+    attack: 84
+    defense: 65
+    speed: 70
+    special: 70
+    type: DRAGON
+    catch_rate: 45
+    base_exp: 144
+    exp_table: 5
+    tm: 6, 7, 8, 9, 10, 11, 12, 13, 14, 20, 23, 24, 25, 31, 32, 33, 34, 38, 39, 40, 44, 45, 50, 53
+    moves_1: WRAP, LEER, THUNDER_WAVE
+    moves_10: THUNDER_WAVE
+    moves_20: AGILITY
+    moves_35: SLAM
+    moves_45: DRAGON_RAGE
+    moves_55: HYPER_BEAM
+    evolution: DRAGONITE, 55
+    pokedex: A mystical POKEMON\
+        that exudes a\
+        gentle aura.\
+        Has the ability\
+        to change climate\
+        conditions
+    species: DRAGON
+    height: 13#FEET1#INCH
+    weight: 36.0lb
+}
+[DRAGONITE] {
+    index: 148
+    hp: 91
+    attack: 134
+    defense: 95
+    speed: 80
+    special: 100
+    type: DRAGON, FLYING
+    catch_rate: 45
+    base_exp: 218
+    exp_table: 5
+    tm: 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20, 23, 24, 25, 31, 32, 33, 34, 38, 39, 40, 44, 45, 50, 53, 54
+    moves_1: WRAP, LEER, THUNDER_WAVE, AGILITY
+    moves_10: THUNDER_WAVE
+    moves_20: AGILITY
+    moves_35: SLAM
+    moves_45: DRAGON_RAGE
+    moves_60: HYPER_BEAM
+    pokedex: An extremely\
+        rarely seen\
+        marine POKEMON.\
+        Its intelligence\
+        is said to match\
+        that of humans
+    species: DRAGON
+    height: 7#FEET3#INCH
+    weight: 463.0lb
+}
+[MEWTWO] {
+    index: 149
+    hp: 106
+    attack: 110
+    defense: 90
+    speed: 130
+    special: 154
+    type: PSYCHIC
+    catch_rate: 3
+    base_exp: 220
+    exp_table: 5
+    tm: 1, 5, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 24, 25, 29, 30, 31, 32, 33, 34, 35, 36, 38, 40, 44, 45, 46, 49, 50, 54, 55
+    moves_1: CONFUSION, DISABLE, SWIFT, PSYCHIC_M
+    moves_63: BARRIER
+    moves_66: PSYCHIC_M
+    moves_70: RECOVER
+    moves_75: MIST
+    moves_81: AMNESIA
+    pokedex: It was created by\
+        a scientist after\
+        years of horrific\
+        gene splicing and\
+        DNA engineering\
+        experiments
+    species: GENETIC
+    height: 6#FEET7#INCH
+    weight: 269.0lb
+}
+[MEW] {
+    index: 150
+    hp: 100
+    attack: 100
+    defense: 100
+    speed: 100
+    special: 100
+    type: PSYCHIC
+    catch_rate: 45
+    base_exp: 64
+    exp_table: 3
+    tm: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56
+    moves_1: POUND
+    moves_10: TRANSFORM
+    moves_20: MEGA_PUNCH
+    moves_30: METRONOME
+    moves_40: PSYCHIC_M
+    pokedex: So rare that it\
+        is still said to\
+        be a mirage by\
+        many experts. Only\
+        a few people have\
+        seen it worldwide
+    species: NEW SPECIE
+    height: 1#FEET4#INCH
+    weight: 9.0lb
+}
