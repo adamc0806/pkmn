@@ -49,9 +49,9 @@ class menu:
         elif option == 2:
             pass # View pokemon
         elif option == 3:
-            pass # Change settings
+            settings.__init__(self)
         elif option == 4:
             quit() # Terminate the program
 
-test = menu()
-print(test.main())
+outputMenu = menu()
+print(outputMenu.main())
