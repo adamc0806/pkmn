@@ -4,7 +4,7 @@
 
 # Built in modules
 import os
-import time
+import time # delay between text outputs
 import json # Needed for json compatibility
 
 # Author written modules
@@ -17,6 +17,8 @@ class settings:
     def __init__(self):
         # Find settings file, if none exists, create one
         # NOTE: ONLY default config will be packaged with program.
+
+        # TODO: For some reason the if is never evaluated as true, fix it.
         if os.path.isfile("Settings.json"):
             self.settingsConfig = open("Settings.json", "a")
         else: # If file not found
