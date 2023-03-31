@@ -19,14 +19,18 @@ class settings:
         # NOTE: ONLY default config will be packaged with program.
 
         # TODO: For some reason the if is never evaluated as true, fix it. 
-        if os.path.isfile("Settings.json"):
-            self.settingsConfig = open("Settings.json", "a")
+        if os.path.isfile("settings.json"):
+            self.settingsConfig = open("settings.json", "a")
         else: # If file not found
-            with open('defaults.json','r') as defaults, open('settings.json','a') as settings:
-                # read content from default config
-                for line in defaults:
-                        # append content to new config
-                        settings.write(line)
+            try:
+                with open('defaults.json','r') as defaults, open('settings.json','a') as settings: # Python can't find defaults.json anymore
+                    # read content from default config
+                    for line in defaults:
+                            # append content to new config
+                            settings.write(line)
+            except FileNotFoundError:
+                defaults = open("settings.json", "w")
+                defaults.write("""{"SleepTime": 0,\n}""")
         
         self.parameter = True # Weird testing thing
 
