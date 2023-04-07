@@ -22,7 +22,7 @@ class menu:
     # Declare attributes.
     def __init__(self):
         self.loggedIn = True
-        self.p = open("Stats.json", "r")
+        self.p = open("Stats.json", "r") # Why tf this no open, it's literally in the same directory???
         
         
 

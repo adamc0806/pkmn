@@ -17,10 +17,14 @@ class game:
 
     def __init__(self):
         # Open stats and moves jsons as attributes
-        self.pokemonStats = open("Stats.json", "r")
+        self.pokemonStats = open("Stats.json", "r") # ITS IN THE SAME DIRECTORY WHY CANT YOU READ THE FILE?????????????
         self.pokemonMoves = open("Moves.json", "r")
 
     # Main game
     def game(self):
         self.pstats = self.pokemonStats.read()
         print(self.pstats())
+
+
+
+Game = game()
