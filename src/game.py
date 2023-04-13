@@ -6,8 +6,10 @@
 import os
 import time
 import random
+import json
 
 # Author written modules
+# from login import *
 from settings import *
 
 
@@ -15,15 +17,17 @@ from settings import *
 class game:
 
 
+    # Open stats and moves jsons as attributes
     def __init__(self):
-        # Open stats and moves jsons as attributes
-        self.pokemonStats = open("Stats.json", "r") # ITS IN THE SAME DIRECTORY WHY CANT YOU READ THE FILE?????????????
+
+        self.pokemonStats = open("Stats.json", "r")
         self.pokemonMoves = open("Moves.json", "r")
+        self.pstats = self.pokemonStats.read()
+        
 
     # Main game
-    def game(self):
-        self.pstats = self.pokemonStats.read()
-        print(self.pstats())
+    def play(pokemonStats, pokemonMoves):
+        pass
 
 
 

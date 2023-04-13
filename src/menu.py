@@ -9,20 +9,20 @@ import time
 import random
 
 # Author written modules.
-from game import game
-from view import view
-from settings import settings
+from game import *
+from view import *
+from settings import *
 
 
 # menu class, other code will be accessed through here.
-# This class acts as the main file, where the entire codebase will be executed from.
+# This class has access to everything in the codebase, to save 
 
 class menu:
 
     # Declare attributes.
     def __init__(self):
-        self.loggedIn = True
-        self.p = open("Stats.json", "r") # Why tf this no open, it's literally in the same directory???
+        self.loggedIn = True # Set to true while programming to negate awkward issues. 
+        # TODO: Change it later when testing properly
         
         
 
@@ -42,14 +42,18 @@ class menu:
         # go to correct class
         if option == 1:
             if self.loggedIn == True: # Check if user logged in
-                game.game(self)
+                game.__init__(self)
             else:
                 print("You need to log into an account first, loading login screen")
                 pass # Go to login menu inside settings class
+
         elif option == 2:
-            pass # View pokemon
-        elif option == 3:
-            settings.__init__(self)
+            view.__init__() # View available pokemon
+
+        elif option == 3: 
+            settings.__init__(self) # Check for settings file(s)
+            settings.configSettings(self) # View or change settings.
+
         elif option == 4:
             quit() # Terminate the program
 
