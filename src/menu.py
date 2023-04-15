@@ -43,6 +43,7 @@ class menu:
         if option == 1:
             if self.loggedIn == True: # Check if user logged in
                 game.__init__(self)
+                game.play(pokemonStats, pokemonMoves)
             else:
                 print("You need to log into an account first, loading login screen")
                 pass # Go to login menu inside settings class
