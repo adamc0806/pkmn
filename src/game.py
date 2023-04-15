@@ -6,8 +6,10 @@
 import os
 import time
 import random
+import json
 
 # Author written modules
+# from login import *
 from settings import *
 
 
@@ -15,12 +17,25 @@ from settings import *
 class game:
 
 
+    # Open stats and moves jsons as attributes
     def __init__(self):
-        # Open stats and moves jsons as attributes
+
         self.pokemonStats = open("Stats.json", "r")
         self.pokemonMoves = open("Moves.json", "r")
+        self.pstats = self.pokemonStats.read()
+        
+    # Generate random team
+    def generateTeam():
+        testFile = open("pokemonNames.txt", "r").read().splitlines()
+        names = random.choices(testFile, k = 6)
+        print(names)
+        
+
 
     # Main game
-    def game(self):
-        self.pstats = self.pokemonStats.read()
-        print(self.pstats())
+    def play(pokemonStats, pokemonMoves):
+        pass
+
+
+
+Game = game()
