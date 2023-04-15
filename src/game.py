@@ -24,6 +24,13 @@ class game:
         self.pokemonMoves = open("Moves.json", "r")
         self.pstats = self.pokemonStats.read()
         
+    # Generate random team
+    def generateTeam():
+        testFile = open("pokemonNames.txt", "r").read().splitlines()
+        names = random.choices(testFile, k = 6)
+        print(names)
+        
+
 
     # Main game
     def play(pokemonStats, pokemonMoves):
