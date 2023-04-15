@@ -26,9 +26,10 @@ class game:
         
     # Generate random team
     def generateTeam():
-        testFile = open("pokemonNames.txt", "r").read().splitlines()
-        names = random.choices(testFile, k = 6)
+        testFile = open("Moves.json", "r").read().splitlines()
+        names = random.choices(testFile, k = 6)# No need for a loop!
         print(names)
+        # TODO: Generate stats 
         
 
 
