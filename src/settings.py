@@ -18,7 +18,7 @@ class settings:
     # NOTE: ONLY default config will be packaged with program.
     def __init__(self):
 
-        if os.path.isfile("settings.json"):
+        if os.path.isfile("settings.json") == True:
             self.settingsConfig = open("settings.json", "a")
         else: # If file not found
             try:
@@ -41,14 +41,20 @@ class settings:
 
 
     def configSettings(self): # Self explanatory.
-         print("""
-         ===================
-         |CONFIGURATION    |
-         |1. TEXT SPEED    |
-         |2. --            |
-         |3. --            |
-         |4. RETURN TO MENU|
-         ===================""")
+        print("""
+        ===================
+        |CONFIGURATION    |
+        |1. TEXT SPEED    |
+        |2. --            |
+        |3. --            |
+        |4. RETURN TO MENU|
+        ===================""")
+        opt = input("Enter choice ==>")
+        
+
+    def textSpeed(self):
+        pass
+
 
 
 configure = settings() # Create object
