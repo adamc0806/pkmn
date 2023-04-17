@@ -37,8 +37,8 @@ class game:
             placeholder = random.choice(testFile)
             names[i].append(placeholder)
             for j in range(0,5):
-                stat = random.randint(0,100)
-                names[i][j].append(stats)
+                stat = int(random.randint(0,100))
+                names[i][j].append(stats) # Refuses to append because it's not a string... really python? 
         print(names)
         # TODO: Generate stats 
         # 1 = attack
@@ -52,7 +52,11 @@ class game:
 
     # Main game
     def play(pokemonStats, pokemonMoves):
-        pass
+        print("GAME STARTING......")
+        print("YOUR POKEMON\n", names[0:])
+        moveChoice = int(input("What move would you like to use?"))
+        if moveChoice == 1:
+            print("You used: ", moveChoice[])
 
 
 
