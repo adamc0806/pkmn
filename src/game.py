@@ -27,14 +27,36 @@ class game:
     # Generate random team
     def generateTeam():
         testFile = open("pokemonNames.txt", "r").read().splitlines()
-        names = random.choices(testFile, k = 6)
+        names = [[],
+                 [],
+                 [],
+                 [],
+                 [],
+                 []]
+        for i in range(0,6):
+            placeholder = random.choice(testFile)
+            names[i].append(placeholder)
+            for j in range(0,5):
+                stat = int(random.randint(0,100))
+                names[i][j].append(stats) # Refuses to append because it's not a string... really python? 
         print(names)
+        # TODO: Generate stats 
+        # 1 = attack
+        # 2 = defense
+        # 3 = sp.attack
+        # 4 = sp.defense
+        # 5 = speed
+        
         
 
 
     # Main game
     def play(pokemonStats, pokemonMoves):
-        pass
+        print("GAME STARTING......")
+        print("YOUR POKEMON\n", names[0:])
+        moveChoice = int(input("What move would you like to use?"))
+        if moveChoice == 1:
+            print("You used: ", moveChoice[])
 
 
 
