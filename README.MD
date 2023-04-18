@@ -9,3 +9,7 @@ To run:
 3. Navigate to /src/menu.py.
 4. Run menu.py.
 
+IN THE FUTURE:
+
+Python apparently can compile things so a compiled package will be available eventually :)
+
