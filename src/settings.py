@@ -49,11 +49,30 @@ class settings:
         |3. --            |
         |4. RETURN TO MENU|
         ===================""")
-        opt = input("Enter choice ==>")
-        
+        optVal = False
+        while optVal != True:
+            opt = input("Enter choice ==>")
+            if opt == 1:
+                optVal = True
+                textSpeed(self)
+            elif opt == 2:
+                pass
+            elif opt == 3:
+                pass
+            elif opt == 4:
+                optVal = True
+                quit()
+            else:
+                print("Invalid value entered, try again.")
+            
 
     def textSpeed(self):
-        pass
+        with open("Settings.json", "r+") as f:
+            settingFile = json.load(f)
+            settingFile['SleepTime'] = input("Enter new text speed value(between 0 and 1): ==> ")
+            f.seek(0)
+            json.dump(settingFile, f, indent = 4)
+            f.truncate()
 
 
 
