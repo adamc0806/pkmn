@@ -20,9 +20,9 @@ class game:
     # Open stats and moves jsons as attributes
     def __init__(self):
 
-        self.pokemonStats = open("Stats.json", "r")
-        self.pokemonMoves = open("Moves.json", "r")
-        self.pstats = self.pokemonStats.read()
+        self.playerDeathCount = 0
+        self.oppPokemonDeathCount = 0
+
         self.turnCount = 0
         
     # Generate random team
@@ -55,13 +55,13 @@ class game:
         
         print("=== PLAYING GAME ===")
         if pokemon[3] > oppPokemon[3]:
-           game. playerTurn(pokemon, oppPokemon)
+           game.playerTurn(pokemon, oppPokemon, self)
         elif pokemon[3] < oppPokemon[3]:
-            game.oppTurn(pokemon, oppPokemon)
+            game.oppTurn(pokemon, oppPokemon, self)
         else: # If both speeds are equal, this is very unlikely but could potentially happen
-            self.playerTurn(pokemon, oppPokemon)
+            self.playerTurn(pokemon, oppPokemon, self)
 
-    def playerTurn(pokemon, oppPokemon):
+    def playerTurn(pokemon, oppPokemon, self):
         turnCount = 0
         print("=== Your turn ===")
         print("""================
@@ -80,20 +80,24 @@ class game:
             if turnCount == 0:
                 turnCount += 1
                 print("=== You can't defend on the first turn! ===")
-                game.oppTurn(pokemon, oppPokemon)
+                game.oppTurn(pokemon, oppPokemon, self)
             else:
                 pass
         elif move == "heal" or move == 3:
             health = oppPokemon[1] - (pokemon[2] / pokemon[2]) # Heal by opponent's attack minus half your health
             pokemon[4] += health
             print("=== You healed for ", health, " health! ===")
-        if pokemon[4] == 0:
+        if pokemon[4] <= 0:
             print("=== Your pokemon fainted... ===")
+            playerDeathCount += 1
             game.generateTeam()
-        game.oppTurn(pokemon, oppPokemon)
+        elif oppPokemon[4] <= 0:
+            print("=== The opponent's pokemon fainted! ===")
+            oppPokemonDeathCount += 1
+        game.oppTurn(pokemon, oppPokemon, self)
 
 
-    def oppTurn(pokemon, oppPokemon):
+    def oppTurn(pokemon, oppPokemon, self):
         turnCount = 0
         print("=== Opponent's turn! ===")
         move = random.randint(0, 3)
@@ -105,7 +109,7 @@ class game:
         elif move == 2:
             if turnCount == 0:
                 turnCount += 1
-                game.playerTurn(pokemon, oppPokemon)
+                game.playerTurn(pokemon, oppPokemon, self)
             else:
                 pass
         elif move == 3:
@@ -113,13 +117,20 @@ class game:
             oppPokemon[4] += health
             print("=== The opponent healed for ", health, " health! ===")
             game.playerTurn(pokemon, oppPokemon)
-        if oppPokemon[4] == 0:
-            print("=== The opponent's pokemon fainted... ===")
-            if oppPokemonDeathCount == 6:
+        if oppPokemon[4] <= 0:
+            print("=== The opponent's pokemon fainted! ===")
+            self.oppPokemonDeathCount += 1
+            game.generateTeam()
+        elif pokemon[4] <= 0:
+            print("=== Your pokemon fainted... ===")
+            self.playerDeathCount += 1
+            game.generateTeam()
+            if self.oppPokemonDeathCount == 6:
                 print("=== The computer loses! ===")
-                game.generateTeam()
-            elif playerDeathCount == 6:
+                return 0
+            elif self.playerDeathCount == 6:
                 print("=== You lose! ===")
+                return 0
             else:
                 game.playerTurn(pokemon, oppPokemon)
 Game = game()

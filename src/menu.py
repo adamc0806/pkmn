@@ -11,8 +11,8 @@ import random
 
 # Author written modules.
 from game import *
-from view import *
 from settings import *
+from login import *
 
 
 # menu class, other code will be accessed through here.
@@ -34,7 +34,7 @@ class menu:
         |MAIN    MENU|
         =============|
         |1. play     |
-        |2. view pkmn|
+        |2. login    |
         |3. settings |
         |4. quit     |
         ==============""")
@@ -48,10 +48,12 @@ class menu:
                 # game.play(pokemonStats, pokemonMoves)
             else:
                 print("You need to log into an account first, loading login screen")
-                pass # Go to login menu inside settings class
+                account.__init__(self)
+                account.main()
 
         elif option == 2:
-            view.__init__() # View available pokemon
+            account.__init__(self)
+            account.main()# login
 
         elif option == 3: 
             settings.__init__(self) # Check for settings file(s)
