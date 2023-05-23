@@ -64,12 +64,12 @@ class game:
     def playerTurn(pokemon, oppPokemon):
         turnCount = 0
         print("=== Your turn ===")
-        print("""================
-                 |Choose a move:|
-                 | 1. Attack    |
-                 | 2. Defend    |
-                 | 3. Heal      |
-                 ================""")
+        print("""\t================
+                 \t|Choose a move:|
+                 \t| 1. Attack    |
+                 \t| 2. Defend    |
+                 \t| 3. Heal      |
+                 \t================""")
         move = input("==>> ").lower()
         if move == "defend" or move == 1:
             attack = (pokemon[1] * pokemon[1]) / pokemon[2]
