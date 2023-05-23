@@ -72,7 +72,7 @@ class game:
                  ================""")
         move = input("==>> ").lower()
         if move == "defend" or move == 1:
-            attack = pokemon[1] * pokemon[1] / pokemon[2]
+            attack = (pokemon[1] * pokemon[1]) / pokemon[2]
             oppPokemon[4] -= attack
             print("=== You did ", attack, " damage! ===")
             print("=== Your stats: ", pokemon, "Opponent's stats: ", oppPokemon, " ===")
@@ -84,7 +84,7 @@ class game:
             else:
                 pass
         elif move == "heal" or move == 3:
-            health = oppPokemon[1] - (pokemon[2] / pokemon[2]) # Heal by opponent's attack minus half your health
+            health = (oppPokemon[1] - (pokemon[2]) / pokemon[2]) # Heal by opponent's attack minus half your health
             pokemon[4] += health
             print("=== You healed for ", health, " health! ===")
         if pokemon[4] == 0:
@@ -98,10 +98,10 @@ class game:
         print("=== Opponent's turn! ===")
         move = random.randint(0, 3)
         if move == 1:
-            attack = pokemon[1] * pokemon[1] / pokemon[2]
+            attack = (pokemon[1] * pokemon[1]) / pokemon[2]
             pokemon[4] -= attack
             print("=== The computer did ", attack, " damage! ===")
-            print("=== Your stats: ", pokemon, "Opponent's stats: ", oppPokemon, " ===")
+            print("\n=== Your stats: ", pokemon, "Opponent's stats: ", oppPokemon, " ===")
         elif move == 2:
             if turnCount == 0:
                 turnCount += 1
@@ -109,17 +109,17 @@ class game:
             else:
                 pass
         elif move == 3:
-            health = pokemon[1] - (oppPokemon[2] / oppPokemon[2]) # Heal by opponent's attack minus half your health
+            health = (pokemon[1] - oppPokemon[2]) / oppPokemon[2] # Heal by opponent's attack minus half your health
             oppPokemon[4] += health
-            print("=== The opponent healed for ", health, " health! ===")
+            print("\n=== The opponent healed for ", health, " health! ===")
             game.playerTurn(pokemon, oppPokemon)
         if oppPokemon[4] == 0:
-            print("=== The opponent's pokemon fainted... ===")
+            print("\n=== The opponent's pokemon fainted... ===")
             if oppPokemonDeathCount == 6:
-                print("=== The computer loses! ===")
+                print("\n=== The computer loses! ===")
                 game.generateTeam()
             elif playerDeathCount == 6:
-                print("=== You lose! ===")
+                print("\n=== You lose! ===")
             else:
                 game.playerTurn(pokemon, oppPokemon)
 Game = game()
