@@ -60,4 +60,4 @@ class menu:
             quit() # Terminate the program
 
 outputMenu = menu()
-print(outputMenu.main())
+outputMenu.main()

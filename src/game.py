@@ -72,25 +72,34 @@ class game:
                  \t================""")
         move = input("==>> ").lower()
         if move == "defend" or move == 1:
+            
             attack = (pokemon[1] * pokemon[1]) / pokemon[2]
             oppPokemon[4] -= attack
             print("=== You did ", attack, " damage! ===")
             print("=== Your stats: ", pokemon, "Opponent's stats: ", oppPokemon, " ===")
+        
         elif move == "defend" or move == 2:
+            
             if turnCount == 0:
+        
                 turnCount += 1
                 print("=== You can't defend on the first turn! ===")
                 game.oppTurn(pokemon, oppPokemon)
+            
             else:
                 pass
+
         elif move == "heal" or move == 3:
+            
             health = (oppPokemon[1] - (pokemon[2]) / pokemon[2]) # Heal by opponent's attack minus half your health
             pokemon[4] += health
             print("=== You healed for ", health, " health! ===")
+        
         if pokemon[4] == 0:
+        
             print("=== Your pokemon fainted... ===")
             game.generateTeam()
-        game.oppTurn(pokemon, oppPokemon)
+            game.oppTurn(pokemon, oppPokemon)
 
 
     def oppTurn(pokemon, oppPokemon):
