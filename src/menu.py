@@ -2,9 +2,8 @@
 # Date of Creation: 24/03/2023.
 # All code written and documented by above mentioned author.
 
-# Test Comment
 
-# Standard packaged modules.
+# Built in modules.
 import os
 import time
 import random
